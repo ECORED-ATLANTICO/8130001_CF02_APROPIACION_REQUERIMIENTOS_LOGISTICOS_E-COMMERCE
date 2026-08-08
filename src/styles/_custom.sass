@@ -3,14 +3,20 @@
   &-1
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 68%
-    left: -10%
-    width: 20%
+    top: 5%
+    left: 15%
+    width: 22%
   &-2
     animation: float1 2.5s ease-in-out infinite alternate
     position: absolute
-    top: 30%
-    right: 10%
+    top: 55%
+    left: 10%
+    width: 15%
+  &-3
+    animation: float1 2.5s ease-in-out infinite alternate
+    position: absolute
+    top: 25%
+    right: 15%
     width: 20%
 
 
@@ -26,7 +32,7 @@
   background-position: left 50% !important
 
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: $color-sistema-texto !important
+  color: $white !important
 
 .banner-interno__titulo__icono i
   color: $color-primario
@@ -40,8 +46,8 @@ figcaption, table caption
     width: 400px !important
 
 .banner-interno__fondo
-  background-image: url("../assets/curso/banner_interno.png") !important
-  background-color: $color-primario !important
+  background-image: url("../assets/curso/portada/banner-interno.png") !important
+  background-color: #5bdcfe !important
 .banner-principal .tarjeta
   @media screen and (max-width: $bp-max-md)
     background-image: url("../assets/curso/portada/fondo-banner-principal-sm.png") !important
@@ -69,11 +75,6 @@ figcaption, table caption
     background-color: $color-primario
 
 
-
-
-
-
-
 /**************************************************************/
 /*Media Queries*/  
 /**************************************************************/
@@ -91,14 +92,11 @@ figcaption, table caption
     width: 90% !important
 
   
- 
-  
 //// TABLET MINI 768--------------------------------------
 @media screen and (max-width: $bp-min-md)
   .mb-cus
     margin-bottom: 2em  !important  
 
-  
 
 //// MOBILE 576--------------------------------------
 @media screen and (max-width: $bp-min-sm)
