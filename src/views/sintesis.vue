@@ -5,7 +5,7 @@
     
     .bloque-texto-g.bloque-texto-g--inverso.color-terciario-10.p-3.p-sm-4.p-md-5
       .bloque-texto-g__img(
-        style="background-image: url('@/assets/curso/sintesis/img_1.png')"
+        :style="{'background-image': `url(${require('@/assets/curso/sintesis/img_1.png')})`}"
       )
       .bloque-texto-g__texto.p-4
         p.mb-0 El componente formativo Tecnología y transacciones en <em>e-commerce</em> aborda la gestión del servicio y el soporte tecnológico, integrando infraestructura y requerimientos de usuarios y administradores; continúa con la estrategia de medios y comunicación digital mediante la selección de canales, servicios de comunicación e indicadores de desempeño; desarrolla la protección de datos y la seguridad digital considerando normativa, delitos informáticos y requerimientos de soporte; asimismo, analiza las pasarelas de pago y el soporte transaccional, incluyendo operación, facturación electrónica e integración contable; y finaliza con las pruebas de calidad del servicio y la protección de transacciones  

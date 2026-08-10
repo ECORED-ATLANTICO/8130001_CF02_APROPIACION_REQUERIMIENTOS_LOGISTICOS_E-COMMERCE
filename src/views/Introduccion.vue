@@ -11,7 +11,7 @@
 
     .bloque-texto-g.bloque-texto-g--inverso.color-terciario-10.p-3.p-sm-4.p-md-5
       .bloque-texto-g__img(
-        style="background-image: url('@/assets/curso/introduccion/img_1.png')"
+        :style="{'background-image': `url(${require('@/assets/curso/introduccion/img_1.png')})`}"
       )
       .bloque-texto-g__texto.p-4
         p.mb-0 El componente formativo Tecnología y transacciones en <em>e-commerce</em> aborda los elementos tecnológicos y operativos que soportan las actividades comerciales desarrolladas en entornos digitales. Actualmente, las organizaciones requieren plataformas tecnológicas, sistemas de comunicación y mecanismos seguros de transacción que permitan garantizar continuidad operativa, protección de la información y satisfacción del cliente.
