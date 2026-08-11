@@ -190,7 +190,7 @@
 
     .tarjeta.tarjeta--fondo-img-01.p-4.px-5.mb-0(data-aos="zoom-in-right")
       .row.align-items-center
-        .col-8.col-lg-3
+        .col-8.col-lg-3.d-none.d-lg-block.text-center
           figure
             img.img-fluid(src="@/assets/curso/tema4/img_14.png", alt="Un servidor apilado junto a una nube con flechas de sincronización y una carpeta amarilla, simbolizando la actualización de sistemas.")
         .col-12.col-lg-9

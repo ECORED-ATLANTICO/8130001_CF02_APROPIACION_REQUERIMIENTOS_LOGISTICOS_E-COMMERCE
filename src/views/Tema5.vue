@@ -165,6 +165,130 @@
     #t_5_4.titulo-segundo.color-acento-contenido
       .h2(data-aos="fade-right") 5.4 Pruebas del sistema
 
+    .bloque-texto-g.color-secundario-5.p-3.p-sm-4.p-md-5(data-aos="zoom-in-right")
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require('@/assets/curso/tema5/img_7.png')})`}"
+        role="img"
+        aria-label="Una mujer con gafas sonríe mientras trabaja en un computador, con líneas de código y una red de conexiones digitales proyectadas alrededor."
+      )
+      .bloque-texto-g__texto.p-4
+        p.mb-0 Las pruebas del sistema corresponden a evaluaciones integrales orientadas a verificar el funcionamiento general de una plataforma tecnológica. Su propósito es asegurar que todos los componentes operen de manera coordinada y cumplan los requerimientos funcionales definidos por la organización.
+
+    p.mt-4.mb-4(data-aos="zoom-in-right") Estas pruebas permiten validar procesos relacionados con autenticación de usuarios, procesamiento de pedidos, integración con pasarelas de pago, generación de reportes y gestión de bases de datos. Entre las más importantes tenemos:
+
+    .row.align-items-center.mb-4
+      .col-8.col-lg-3.mb-4.mb-lg-0(data-aos="fade-up")
+        figure
+          img.img-fluid(src="@/assets/curso/tema5/img_8.png", alt="Un hombre sonríe mientras sostiene un computador portátil, con ilustraciones de un globo terráqueo con paquetes y un carrito de compras a su alrededor.")
+      .col-12.col-lg-9
+        SlyderF.circl-arrow.mb-0(columnas="col-lg-6")
+          .tarjeta.tarjeta--blanca.border.shadow.p-4
+            .row.justify-content-center.mb-4
+              .col-5
+                figure
+                  img(src="@/assets/curso/tema5/img_9.svg")
+            h4.text-center Funcionamiento integral
+            p.text-center Verifica que todos los módulos de la plataforma operen de forma coordinada y cumplan los procesos definidos para el comercio electrónico.
+            p.text-center
+              strong Ejemplo:
+              |  se comprueba que el registro, la compra, el pago y la generación del pedido funcionen correctamente en una misma operación.
+          .tarjeta.tarjeta--blanca.border.shadow.p-4
+            .row.justify-content-center.mb-4
+              .col-5.mb-3
+                figure
+                  img(src="@/assets/curso/tema5/img_10.svg", alt="")
+            h4.text-center Rendimiento del sistema
+            p.text-center Evalúa la capacidad de la plataforma para responder adecuadamente ante diferentes volúmenes de usuarios y transacciones simultáneas.
+            p.text-center
+              strong Ejemplo:
+              |  se simula el ingreso de miles de usuarios durante una campaña de descuentos para medir los tiempos de respuesta.
+          .tarjeta.tarjeta--blanca.border.shadow.p-4
+            .row.justify-content-center.mb-4
+              .col-5
+                figure
+                  img(src="@/assets/curso/tema5/img_11.svg", alt="")
+            h4.text-center Seguridad del sistema
+            p.text-center Comprueba la efectividad de los mecanismos implementados para proteger la información, las transacciones y el acceso a la plataforma.
+            p.text-center
+              strong Ejemplo:
+              |  se valida que las comunicaciones utilicen conexiones seguras y que únicamente usuarios autorizados accedan al panel administrativo.
+          .tarjeta.tarjeta--blanca.border.shadow.p-4
+            .row.justify-content-center.mb-4
+              .col-5
+                figure
+                  img(src="@/assets/curso/tema5/img_12.svg", alt="")
+            h4.text-center Integración de servicios
+            p.text-center Confirma la correcta comunicación entre la plataforma y los servicios externos requeridos para la operación del comercio electrónico.
+            p.text-center
+              strong Ejemplo:
+              |  se verifica el intercambio de información entre la tienda virtual, la pasarela de pagos y la empresa transportadora.
+          .tarjeta.tarjeta--blanca.border.shadow.p-4
+            .row.justify-content-center.mb-4
+              .col-5
+                figure
+                  img(src="@/assets/curso/tema5/img_13.svg", alt="")
+            h4.text-center Recuperación ante fallas
+            p.text-center Valida la capacidad del sistema para restaurar los servicios y la información después de una interrupción o incidente tecnológico.
+            p.text-center
+              strong Ejemplo:
+              |  se recupera la base de datos desde una copia de seguridad tras una falla del servidor.
+          .tarjeta.tarjeta--blanca.border.shadow.p-4
+            .row.justify-content-center.mb-4
+              .col-5
+                figure
+                  img(src="@/assets/curso/tema5/img_14.svg", alt="")
+            h4.text-center Compatibilidad del sistema
+            p.text-center Corrobora el funcionamiento de la plataforma en diferentes navegadores, dispositivos y sistemas operativos sin afectar la experiencia del usuario.
+            p.text-center
+              strong Ejemplo:
+              |  se verifica que la tienda virtual funcione correctamente en Chrome, Edge, Firefox y dispositivos móviles.
+          .tarjeta.tarjeta--blanca.border.shadow.p-4
+            .row.justify-content-center.mb-2
+              .col-5
+                figure
+                  img(src="@/assets/curso/tema5/img_15.svg", alt="")
+            h4.text-center Gestión de errores
+            p.text-center Analiza el comportamiento del sistema cuando se presentan fallas, garantizando que los mensajes sean claros y que la operación continúe de forma controlada.
+            p.text-center
+              strong Ejemplo:
+              |  se comprueba que la plataforma informe adecuadamente cuando un pago es rechazado sin perder la información del pedido.
+
+    .row.justify-content-center.mb-5.mt-4
+      .col-12.col-lg-8
+        .tarjeta.tarjeta--primario-5.p-4.text-center(data-aos="zoom-in-right")
+          p.mb-0 Por ejemplo, antes de poner en funcionamiento una tienda virtual, la empresa puede ejecutar pruebas del sistema para verificar que todas las funcionalidades trabajen correctamente de manera integrada.
+
+    .row.justify-content-center.mb-5
+      .col-12.col-lg-8
+        .tarjeta.color-terciario-70.p-4(data-aos="zoom-in-right")
+          .row.justify-content-around.align-items-center
+            .col-8.col-sm-3.col-lg-2
+              figure
+                img(src="@/assets/curso/tema1/img_17.svg")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  p.mb-0 A continuación, se invita a ir al siguiente video para fortalecer los conocimientos relacionados con pruebas y control de calidad del servicio:
+                .col-sm-auto
+                  a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=m7Uz3SsIv1g" target="_blank")
+                    span Ir al recurso
+                    i.fas.fa-file-video
+
+    .row.justify-content-center.mb-5
+      .col-12.col-lg-8
+        .tarjeta.color-primario.p-4(data-aos="zoom-in-right")
+          .row.justify-content-around.align-items-center
+            .col-8.col-sm-2.col-lg-2
+              figure
+                img(src="@/assets/curso/tema1/img_18.svg")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  p.mb-0 Se invita al aprendiz a profundizar en pruebas y control de calidad del servicio, a través del artículo:
+                .col-sm-auto
+                  a.boton.color-acento-botones(href="https://revistap.ejeutap.edu.co/index.php/Gestion/article/download/148/125/258" target="_blank")
+                    span Ir al recurso
+                    i.fas.fa-file-video
 </template>
 
 <script>
