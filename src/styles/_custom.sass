@@ -19,7 +19,6 @@
     right: 15%
     width: 20%
 
-
 @keyframes float1
   0%
     transform: translateY(20px)
@@ -103,5 +102,111 @@ figcaption, table caption
   .mb-cus
     margin-bottom: 2em  !important
 
-  
- 
+/// acordion
+.acordion__contenido
+  margin-left: 3.5rem 
+
+.acordion__accion__btn--a
+  background-color: $color-acento-botones !important
+
+.circl-arrow .slyder-f__btn i
+  font-size: 1.2rem
+  background-color: $color-acento-botones
+  height: 46px
+  width: 46px
+  padding: 5px
+  border-radius: 500px
+  display: flex
+  justify-content: center
+  align-items: center
+
+// TabsA
+.tabs-a
+  .col-sm-6
+    flex: 0 0 100% !important
+    max-width: 100% !important
+
+.tabs-a.color-acento-botones.mb-3.uno
+  .row
+    align-items: stretch !important
+    justify-content: center !important
+    .col-lg-4.col-xl-3
+      flex: 0 0 50% !important
+      max-width: 50% !important
+      display: flex
+      flex-direction: column
+
+      @media (min-width: 1200px)
+        flex: 0 0 36% !important
+        max-width: 36% !important
+
+      @media (max-width: 991px)
+        flex: 0 0 100% !important
+        max-width: 100% !important
+    .col-lg-8.col-xl-9
+      flex: 0 0 50% !important
+      max-width: 50% !important
+      display: flex !important
+
+      @media (min-width: 1200px)
+        flex: 0 0 64% !important
+        max-width: 64% !important
+
+      @media (max-width: 991px)
+        flex: 0 0 100% !important
+        max-width: 100% !important
+
+.tabs-a.color-acento-contenido-10.mb-3.dos
+  .row
+    align-items: stretch !important
+    justify-content: center !important
+    .col-lg-4.col-xl-3
+      flex: 0 0 50% !important
+      max-width: 50% !important
+      display: flex
+      flex-direction: column
+
+      @media (min-width: 1200px)
+        flex: 0 0 45% !important
+        max-width: 45% !important
+
+      @media (max-width: 991px)
+        flex: 0 0 100% !important
+        max-width: 100% !important
+    .col-lg-8.col-xl-9
+      flex: 0 0 50% !important
+      max-width: 50% !important
+      display: flex !important
+
+      @media (min-width: 1200px)
+        flex: 0 0 55% !important
+        max-width: 55% !important
+
+      @media (max-width: 991px)
+        flex: 0 0 100% !important
+        max-width: 100% !important
+
+.tabs-a.tarjeta-tabs-a.color-acento-botones.mb-3.uno .col-sm-6.col-lg-12.mb-3
+  .tabs-a__tab
+    padding: 18px 22px !important
+    font-size: 0.95rem !important
+    flex-grow: 1
+.tabs-a.tarjeta-tabs-a.color-acento-botones.mb-3.dos .col-sm-6.col-lg-12.mb-3
+  .tabs-a__tab
+    padding: 18px 22px !important
+    font-size: 0.95rem !important
+    flex-grow: 1
+
+.tabs-a .tarjeta-tabs-a__tarjeta
+  flex-grow: 1 !important
+  width: 100%
+  display: flex !important
+  align-items: center !important
+  flex-direction: column !important
+  justify-content: center !important
+
+.tabs-a
+  .tarjeta
+    display: flex  !important
+    flex-direction: column  !important
+    justify-content: center  !important

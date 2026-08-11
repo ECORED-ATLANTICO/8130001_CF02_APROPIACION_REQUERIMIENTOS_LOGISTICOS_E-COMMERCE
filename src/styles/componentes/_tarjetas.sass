@@ -24,6 +24,110 @@
   &--azul
     background-color: $color-sistema-e
 
+  &--adicional-1
+    background-color: $color-adicional-1
+
+  &--terciario-5
+    background-color: $color-terciario-5
+
+  &--secundario-5
+    background-color: $color-secundario-5
+
+  &--primario-5
+    background-color: $color-primario-5
+
+  &--acento-contenido-5
+    background-color: $color-acento-contenido-5
+
+  &--fondo-img-01
+    background-color: $color-sistema-e
+    background-image: url(../assets/curso/tema1/img_3.png) !important
+    border-radius: 20px
+    position: relative
+    display: flex
+    flex-direction: column
+    overflow: hidden 
+    background-repeat: no-repeat
+    background-size: cover 
+    background-position: center
+    overflow: hidden 
+    pointer-events: none
+    *
+      color: textColor($color-sistema-h)
+    &--borde
+      background-color: $white
+      color: textColor(color.adjust($color-sistema-h, $lightness: 50%))
+      border: solid 4px $color-sistema-h
+    .slyder-a__tipo-a .slyder-a__btn--sigt
+      background-color: $color-acento-botones
+    .slyder-a__tipo-a .slyder-a__btn--atrs
+      background-color: $color-acento-botones
+    .slyder-a__tipo-a .slyder-a__bullets
+      display: none
+
+  &--fondo-img-02
+    background-color: $color-sistema-e
+    background-image: url(../assets/curso/tema1/img_7.png) !important
+    border-radius: 20px
+    position: relative
+    display: flex
+    flex-direction: column
+    overflow: hidden
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: center
+    pointer-events: none
+    *
+      color: textColor($color-sistema-h)
+    &--borde
+      background-color: $white
+      color: textColor(color.adjust($color-sistema-h, $lightness: 50%))
+      border: solid 4px $color-sistema-h
+    .slyder-a__tipo-b .slyder-a__btn--sigt
+      background-color: $color-acento-botones
+    .slyder-a__tipo-b .slyder-a__btn--atrs
+      background-color: $color-acento-botones
+    .slyder-a__bullets__item--active
+      background-color: $color-secundario-70 !important
+      border-color: $color-secundario-70 !important
+      opacity: 1
+    .slyder-a__bullets__item
+      background-color: color.adjust($color-secundario-70, $lightness: 15%)
+      border: 1px solid color.adjust($color-secundario-70, $lightness: 15%)
+
+  &--fondo-img-03
+    background-color: $color-sistema-e
+    background-image: url(../assets/curso/tema1/img_20.png) !important
+    border-radius: 20px
+    position: relative
+    display: flex
+    flex-direction: column
+    overflow: hidden
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: center
+    *
+      color: textColor($color-sistema-h)
+
+  &--fondo-img-04
+    background-color: $color-sistema-e
+    background-image: url(../assets/curso/tema5/img_5.png) !important
+    border-radius: 20px
+    position: relative
+    display: flex
+    flex-direction: column
+    overflow: hidden
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: center
+    *
+      color: textColor($color-sistema-h)
+    .slyder-a__tipo-a .slyder-a__btn--sigt
+      background-color: $color-acento-botones
+    .slyder-a__tipo-a .slyder-a__btn--atrs
+      background-color: $color-acento-botones
+    .slyder-a__tipo-a .slyder-a__bullets
+      display: none
   &--boton
     border-radius: 20px
     background-color: $color-sistema-h
@@ -64,6 +168,14 @@
       background-color: color.adjust($color-primario, $lightness: 50%)
       color: textColor(color.adjust($color-primario, $lightness: 50%))
       border: solid 4px $color-primario
+  &.color-primario-10
+    background-color: $color-primario-10
+    *
+      color: textColor($color-primario-10)
+    &--borde
+      background-color: color.adjust($color-primario-10, $lightness: 50%)
+      color: textColor(color.adjust($color-primario-10, $lightness: 50%))
+      border: solid 4px $color-primario-10
   &.color-secundario
     background-color: $color-secundario
     *
@@ -80,6 +192,16 @@
       background-color: color.adjust($color-acento-contenido, $lightness: 50%)
       color: textColor(color.adjust($color-acento-contenido, $lightness: 50%))
       border: solid 4px $color-acento-contenido
+  &.color-acento-contenido-10
+    background-color: $color-acento-contenido-10
+    *
+      color: textColor($color-acento-contenido-10)
+    &--borde
+      background-color: color.adjust($color-acento-contenido-10, $lightness: 50%)
+      color: textColor(color.adjust($color-acento-contenido-10, $lightness: 50%))
+      border: solid 4px $color-acento-contenido-10
+    &.acordion__activo
+      background-color: $color-primario-10
   &.color-acento-botones
     background-color: $color-acento-botones
     *
@@ -88,6 +210,14 @@
       background-color: color.adjust($color-acento-botones, $lightness: 50%)
       color: textColor(color.adjust($color-acento-botones, $lightness: 50%))
       border: solid 4px $color-acento-botones
+  &.color-terciario-70
+    background-color: $color-terciario-70
+    *
+      color: textColor($color-terciario-70)
+    &--borde
+      background-color: color.adjust($color-terciario-70, $lightness: 50%)
+      color: textColor(color.adjust($color-terciario-70, $lightness: 50%))
+      border: solid 4px $color-terciario-70
 
 // TARJETAS CON AVATAR
 .tarjeta-avatar
