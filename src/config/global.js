@@ -239,7 +239,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/dist.pdf',
+        download: 'downloads/8130001_CF02_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -437,7 +437,7 @@ export default {
       autores: [
         {
           nombre: 'Sergio Quintero Guzmán ',
-          cargo: 'Experto temática',
+          cargo: 'Experto temático',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
