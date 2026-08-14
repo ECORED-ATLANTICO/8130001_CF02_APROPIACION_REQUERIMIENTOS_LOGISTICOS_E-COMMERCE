@@ -17,6 +17,9 @@
     &--sigt, &--atrs
       width: 50px
       height: 50px
+      @media screen and (max-width: $bp-max-xs)
+        width: 30px
+        height: 30px
       background-color: $white
       border-radius: 50%
       background-image: url('../assets/bullets/arrow.svg')
@@ -69,13 +72,13 @@
           position: absolute
         &--sigt
           transform: translateY(-50%) rotate(-90deg)
-          right: 15px
+          right: 10px
           .indicador__container
             transform: translateY(15px) rotate(90deg)
 
         &--atrs
           transform: translateY(-50%) rotate(90deg)
-          left: 15px
+          left: 10px
 
       &__bullets
         position: absolute
@@ -92,13 +95,13 @@
       &__btn
         &--sigt
           transform: rotate(-90deg)
-          right: 15px
+          right: 15px 
           .indicador__container
             transform: rotate(90deg)
 
         &--atrs
           transform: rotate(90deg)
-          left: 15px
+          left: 15px 
 
       &__bullets
         position: relative

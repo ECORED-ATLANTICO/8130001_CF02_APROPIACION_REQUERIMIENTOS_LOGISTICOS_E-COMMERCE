@@ -9,7 +9,7 @@
 
     .tarjeta.tarjeta--secundario-5.p-4.mb-0(data-aos="zoom-in-right")
       .row.align-items-center.mb-0
-        .col-8.col-sm-2.col-lg-1.mb-4.mb-lg-0(data-aos="fade-up")
+        .col-8.col-sm-2.col-lg-1.mb-4.mb-lg-0.d-none.d-lg-block(data-aos="fade-up")
           figure
             img.img-fluid(src="@/assets/curso/tema3/img_1.svg", alt="Ícono de un candado, simbolizando la protección de datos y la seguridad digital.")
         .col-12.col-lg-11
@@ -20,7 +20,7 @@
     #t_3_1.titulo-segundo.color-acento-contenido
       .h2(data-aos="fade-right") 3.1 Protección de datos
 
-    .row.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5
       .col-8.col-lg-3.mb-4.mb-lg-0(data-aos="fade-up")
         figure
           img.img-fluid(src="@/assets/curso/tema3/img_2.png", alt="Unas manos escriben en un computador portátil mientras se proyecta un holograma de un candado de seguridad rodeado de íconos de documento, nube y carpeta, representando la protección de datos.")
@@ -57,9 +57,12 @@
 
     p.mb-4(data-aos="zoom-in-right") A continuación, se relacionan las principales leyes que hacen parte de esta normativa:
 
+    .titulo-sexto.color-acento-contenido(data-aos="zoom-in-right")
+        h5 Tabla 2.
+        | Normatividad legal en temas de protección de datos
     .tabla-a.color_primario-20.mb-5(data-aos="zoom-in-right")
       table
-        caption Tabla 2. Normatividad legal en temas de protección de datos
+        caption Nota. SENA, (2026).
         thead
           tr
             th Norma
@@ -104,7 +107,7 @@
       .col-12.col-lg-8
         .tarjeta.tarjeta--fondo-img-01.p-4.px-5.mb-0(data-aos="zoom-in-right")
           .tarjeta.tarjeta--blanca.mb-0
-            SlyderA.py-4.px-5(tipo="a")
+            SlyderA.py-0.px-0.py-md-4.px-md-5(tipo="a")
               .py-4.px-5
                 h3.h5 Acceso no autorizado
                 p.mb-0 Consiste en ingresar a sistemas, cuentas o plataformas sin el permiso del propietario para consultar, modificar o extraer información.
@@ -241,14 +244,14 @@
       .col-12.col-lg-8
         .tarjeta.color-terciario-70.p-4(data-aos="zoom-in-right")
           .row.justify-content-around.align-items-center
-            .col-8.col-sm-3.col-lg-2
+            .col-6.col-md-2.col-lg-2.mb-3.mb-sm-0
               figure
                 img(src="@/assets/curso/tema1/img_17.svg")
-            .col
+            .col-12.col-md-10.col-lg-10
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   p.mb-0 A continuación, se invita a ir al siguiente video para fortalecer los conocimientos relacionados con protección de datos y seguridad digital:
-                .col-sm-auto
+                .col-sm-auto.text-center
                   a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=_sjIHKMeeeg&t=1752s" target="_blank")
                     span Ir al recurso
                     i.fas.fa-file-video
@@ -257,17 +260,17 @@
       .col-12.col-lg-8
         .tarjeta.color-primario.p-4(data-aos="zoom-in-right")
           .row.justify-content-around.align-items-center
-            .col-8.col-sm-2.col-lg-2
+            .col-6.col-md-2.col-lg-2.mb-3.mb-sm-0
               figure
                 img(src="@/assets/curso/tema1/img_18.svg")
-            .col
+            .col-12.col-md-10.col-lg-10
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   p.mb-0 Se invita al aprendiz a profundizar en protección de datos y seguridad digital, a través del siguiente artículo:
-                .col-sm-auto
+                .col-sm-auto.text-center
                   a.boton.color-acento-botones(href="https://www.mintic.gov.co/portal/715/articles-403023_recurso_2.pdf" target="_blank")
                     span Ir al recurso
-                    i.fas.fa-file-video
+                    i.fas.fa-file-pdf
 </template>
 
 <script>

@@ -22,14 +22,17 @@
       .h2(data-aos="fade-right") 5.1 Pruebas de servicio
 
     .row.align-items-center.mb-4
-      .col-8.col-sm-2.col-lg-1.mb-4.mb-lg-0(data-aos="fade-up")
+      .col-8.col-sm-2.col-lg-1.mb-4.mb-lg-0.d-none.d-lg-block(data-aos="fade-up")
         img.img-fluid(src="@/assets/curso/tema5/img_2.svg", alt="Ícono de un computador con un carrito de compras en la pantalla, simbolizando las pruebas de servicio en el comercio electrónico.")
       .col-12.col-lg-11
         p.mb-0(data-aos="zoom-in-right") Las pruebas de servicio son procedimientos diseñados para verificar que los servicios, aplicaciones y procesos de una plataforma de comercio electrónico funcionen correctamente antes y durante su operación. Su propósito es identificar errores, validar el cumplimiento de los requerimientos, garantizar la disponibilidad de los servicios y ofrecer una experiencia de compra segura, confiable y eficiente para los usuarios. Entre las principales pruebas tenemos:
 
+    .titulo-sexto.color-acento-contenido(data-aos="zoom-in-right")
+        h5 Tabla 3.
+        | Diferentes pruebas de servicio 
     .tabla-a.color_primario-20.mb-5(data-aos="zoom-in-right")
       table
-        caption Tabla 3. Diferentes pruebas de servicio
+        caption Nota. SENA, (2026).
         thead
           tr
             th Prueba
@@ -86,7 +89,7 @@
       .row.align-items-center
         .col-12.col-lg-8
           .tarjeta.tarjeta--blanca.mb-0
-            SlyderA.py-4.px-5(tipo="a")
+            SlyderA.py-0.px-0.py-md-4.px-md-5(tipo="a")
               .py-4.px-5
                 h3.h5 Diseño
                 p.mb-0 Verifica que la distribución de los elementos, colores, tipografía e imágenes mantengan una presentación uniforme, favoreciendo una navegación clara y una experiencia visual coherente para el usuario.
@@ -176,11 +179,11 @@
 
     p.mt-4.mb-4(data-aos="zoom-in-right") Estas pruebas permiten validar procesos relacionados con autenticación de usuarios, procesamiento de pedidos, integración con pasarelas de pago, generación de reportes y gestión de bases de datos. Entre las más importantes tenemos:
 
-    .row.align-items-center.mb-4
-      .col-8.col-lg-3.mb-4.mb-lg-0(data-aos="fade-up")
+    .row.justify-content-center.align-items-center.mb-4
+      .col-8.col-lg-6.col-xl-3.mb-4.mb-lg-0(data-aos="fade-up")
         figure
           img.img-fluid(src="@/assets/curso/tema5/img_8.png", alt="Un hombre sonríe mientras sostiene un computador portátil, con ilustraciones de un globo terráqueo con paquetes y un carrito de compras a su alrededor.")
-      .col-12.col-lg-9
+      .col-12.col-lg-12.col-xl-9
         SlyderF.circl-arrow.mb-0(columnas="col-lg-6")
           .tarjeta.tarjeta--blanca.border.shadow.p-4
             .row.justify-content-center.mb-4
@@ -262,14 +265,14 @@
       .col-12.col-lg-8
         .tarjeta.color-terciario-70.p-4(data-aos="zoom-in-right")
           .row.justify-content-around.align-items-center
-            .col-8.col-sm-3.col-lg-2
+            .col-6.col-md-2.col-lg-2.mb-3.mb-sm-0
               figure
                 img(src="@/assets/curso/tema1/img_17.svg")
-            .col
+            .col-12.col-md-10.col-lg-10
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   p.mb-0 A continuación, se invita a ir al siguiente video para fortalecer los conocimientos relacionados con pruebas y control de calidad del servicio:
-                .col-sm-auto
+                .col-sm-auto.text-center
                   a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=m7Uz3SsIv1g" target="_blank")
                     span Ir al recurso
                     i.fas.fa-file-video
@@ -278,17 +281,17 @@
       .col-12.col-lg-8
         .tarjeta.color-primario.p-4(data-aos="zoom-in-right")
           .row.justify-content-around.align-items-center
-            .col-8.col-sm-2.col-lg-2
+            .col-6.col-md-2.col-lg-2.mb-3.mb-sm-0
               figure
                 img(src="@/assets/curso/tema1/img_18.svg")
-            .col
+            .col-12.col-md-10.col-lg-10
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   p.mb-0 Se invita al aprendiz a profundizar en pruebas y control de calidad del servicio, a través del artículo:
-                .col-sm-auto
+                .col-sm-auto.text-center
                   a.boton.color-acento-botones(href="https://revistap.ejeutap.edu.co/index.php/Gestion/article/download/148/125/258" target="_blank")
                     span Ir al recurso
-                    i.fas.fa-file-video
+                    i.fas.fa-file-pdf
 </template>
 
 <script>

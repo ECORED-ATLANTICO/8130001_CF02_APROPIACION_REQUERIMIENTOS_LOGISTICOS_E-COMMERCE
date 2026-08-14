@@ -25,25 +25,25 @@
         .col-12.col-lg-9.mb-0
           p.mb-3(data-aos="zoom-in-right") La gestión del servicio corresponde al conjunto de actividades orientadas a planificar, ejecutar, supervisar y mejorar los servicios ofrecidos a clientes y usuarios mediante plataformas digitales. Su propósito principal es garantizar que los servicios respondan a las necesidades del mercado, cumplan los niveles de calidad establecidos y generen experiencias satisfactorias para los usuarios.
           p.mb-4(data-aos="zoom-in-right") En el contexto del comercio electrónico, la gestión del servicio abarca procesos relacionados con lo siguiente:
-          .tarjeta.tarjeta--fondo-img-01.p-4.px-5.mb-0(data-aos="zoom-in-right")
+          .tarjeta.tarjeta--fondo-img-01.p-2.p-md-4.px-3.p-md-5.mb-0(data-aos="zoom-in-right")
             .tarjeta.tarjeta--blanca.mb-0
               SlyderA.py-4.px-5(tipo="a")
-                .py-4.px-5
+                .py-3.px-4.p-md-4.p-md-5
                   h3.h5 Atención al cliente
                   p.mb-0 Brinda orientación y acompañamiento antes, durante y después de la compra, resolviendo consultas, suministrando información oportuna y ofreciendo soluciones que fortalecen la confianza, la satisfacción y la relación con el cliente.
-                .py-4.px-5
+                .py-3.px-4.p-md-4.p-md-5
                   h3.h5 Administración de pedidos
                   p.mb-0 Coordina el registro, procesamiento, preparación, despacho y entrega de los pedidos, garantizando información actualizada, cumplimiento de los tiempos establecidos y control de cada etapa del proceso logístico.
-                .py-4.px-5
+                .py-3.px-4.p-md-4.p-md-5
                   h3.h5 Soporte técnico
                   p.mb-0 Atiende inconvenientes relacionados con la plataforma, los medios de pago, el acceso a la cuenta o el funcionamiento de los servicios digitales, asegurando una solución ágil que facilite la continuidad de la compra.
-                .py-4.px-5
+                .py-3.px-4.p-md-4.p-md-5
                   h3.h5 Gestión de reclamos
                   p.mb-0 Recibe, analiza y resuelve las inconformidades presentadas por los clientes, aplicando procedimientos establecidos que permitan ofrecer respuestas oportunas, soluciones adecuadas y acciones para prevenir situaciones similares.
-                .py-4.px-5
+                .py-3.px-4.p-md-4.p-md-5
                   h3.h5 Seguimiento de solicitudes
                   p.mb-0 Controla el estado de consultas, requerimientos, cambios, devoluciones y demás solicitudes, manteniendo comunicación permanente con el cliente hasta confirmar la atención y el cierre satisfactorio del proceso.
-                .py-4.px-5
+                .py-3.px-4.p-md-4.p-md-5
                   h3.h5 Mejora continua de la experiencia de compra
                   p.mb-0 Evalúa resultados, recopila opiniones y analiza indicadores para identificar oportunidades de mejora que optimicen los procesos, incrementen la satisfacción del cliente y fortalezcan la calidad del servicio ofrecido.
 
@@ -101,7 +101,7 @@
             img.img-fluid(src="@/assets/curso/tema1/img_5.png", alt="Una mujer escribe en su computador portátil mientras se representan, mediante ilustraciones, un carrito de compras con paquetes, una etiqueta de descuento, burbujas de chat y monedas, simbolizando la gestión y el soporte tecnológico del proceso de compra en línea.")
 
       .row.justify-content-center.align-items-center.mb-0
-        .col-12.col-lg-5.mb-0
+        .col-12.col-lg-5.mb-3
           p.mb-0(data-aos="zoom-in-right") En el comercio electrónico, el soporte tecnológico resulta fundamental debido a que las plataformas digitales operan continuamente y deben garantizar disponibilidad permanente para los usuarios. Una interrupción del servicio puede afectar las ventas, la atención al cliente y la imagen corporativa de la organización.
         .col-12.col-lg-7.mb-0
           .tarjeta.tarjeta--adicional-1.py-4.px-5.d-flex.align-items-center.justify-content-between.mb-0(data-aos="zoom-in-right")
@@ -131,63 +131,63 @@
         .tarjeta.tarjeta--blanca.mb-0
           SlyderA.p-5(tipo="b").mb-0
             .row.align-items-center.mb-0
-              .col-md-6.mb-4.mb-md-0
+              .col-md-12.col-lg-6.mb-4.mb-md-3
                 strong.d-block.fst-italic.mb-3 Hardware
                 p.mb-3 Agrupa los equipos físicos que permiten ejecutar las operaciones tecnológicas y logísticas, facilitando el procesamiento de información, la comunicación y el control de las actividades del comercio electrónico.
                 p.mb-0
                   strong Ejemplo:
                   |  servidores, computadores, lectores de códigos de barras, impresoras de etiquetas y terminales portátiles utilizados en un centro de distribución.
-              .col-md-6
+              .col-md-12.col-lg-6
                 figure
                   img.img-fluid(src="@/assets/curso/tema1/img_8.png", alt="Un hombre sostiene un computador portátil mientras revisa los servidores de un centro de datos con racks de equipos.")
             .row.align-items-center
-              .col-md-6.mb-4.mb-md-0
+              .col-md-12.col-lg-6.mb-4.mb-md-3
                 strong.d-block.fst-italic.mb-3 Software
                 p.mb-3 Comprende los programas y aplicaciones que administran las operaciones comerciales y logísticas, automatizando procesos y facilitando la gestión de pedidos, inventarios, pagos y despachos.
                 p.mb-0
                   strong Ejemplo:
                   |  plataforma de <em>e-commerce</em> integrada con un WMS, un ERP y un TMS para gestionar toda la operación logística.
-              .col-md-6
+              .col-md-12.col-lg-6
                 figure
                   img.img-fluid(src="@/assets/curso/tema1/img_9.png", alt="Unas manos escriben en el teclado de un computador portátil cuya pantalla muestra un editor de código con líneas de programación.")
             .row.align-items-center
-              .col-md-6.mb-4.mb-md-0
-                strong.d-block.fst-italic.mb-3 Redes y conectividad
+              .col-md-12.col-lg-6.mb-4.mb-md-3
+                strong.d-block.mb-3 Redes y conectividad
                 p.mb-3 Permite la comunicación entre dispositivos, usuarios y sistemas, garantizando el intercambio oportuno y seguro de información durante las operaciones logísticas y comerciales.
                 p.mb-0
                   strong Ejemplo:
                   |  red Wi-Fi del almacén que conecta los dispositivos móviles de los operarios con el sistema de gestión de inventarios.
-              .col-md-6
+              .col-md-12.col-lg-6
                 figure
                   img.img-fluid(src="@/assets/curso/tema1/img_10.png", alt="Un globo terráqueo conectado mediante líneas a varios íconos de candado que representan nodos de red protegidos, sobre un fondo digital azul.")
             .row.align-items-center
-              .col-md-6.mb-4.mb-md-0
-                strong.d-block.fst-italic.mb-3 Servicios en la nube
+              .col-md-12.col-lg-6.mb-4.mb-md-3
+                strong.d-block.mb-3 Servicios en la nube
                 p.mb-3 Proporciona recursos tecnológicos bajo demanda, permitiendo ampliar la capacidad de procesamiento, almacenamiento y disponibilidad sin depender de infraestructura física propia.
                 p.mb-0
                   strong Ejemplo:
                   |  uso de Microsoft Azure, Amazon Web Services (AWS) o Google Cloud para alojar la tienda virtual y sus servicios.
-              .col-md-6
+              .col-md-12.col-lg-6
                 figure
                   img.img-fluid(src="@/assets/curso/tema1/img_11.png", alt="Una mano toca un ícono de nube digital conectado a íconos de documento, usuario, dispositivo móvil y calculadora, representando el acceso a servicios en la nube.")
             .row.align-items-center
-              .col-md-6.mb-4.mb-md-0
-                strong.d-block.fst-italic.mb-3 Ciberseguridad
+              .col-md-12.col-lg-6.mb-4.mb-md-3
+                strong.d-block.mb-3 Ciberseguridad
                 p.mb-3 Implementa controles, políticas y herramientas para proteger los sistemas, la información y las transacciones frente a accesos no autorizados, ataques informáticos o pérdida de datos.
                 p.mb-0
                   strong Ejemplo:
                   |  autenticación multifactorial, certificados SSL, firewall y copias de seguridad para proteger la plataforma de comercio electrónico.
-              .col-md-6
+              .col-md-12.col-lg-6
                 figure
                   img.img-fluid(src="@/assets/curso/tema1/img_12.png", alt="Unas manos escriben en un computador portátil mientras se proyecta un holograma de un escudo de seguridad con datos binarios y paneles de verificación de identidad.")
             .row.align-items-center
-              .col-md-6.mb-4.mb-md-0
-                strong.d-block.fst-italic.mb-3 Dispositivos móviles e IoT
+              .col-md-12.col-lg-6.mb-4.mb-md-3
+                strong.d-block.mb-3 Dispositivos móviles e IoT
                 p.mb-3 Integra equipos inteligentes que facilitan la captura, transmisión y consulta de información en tiempo real, mejorando la trazabilidad y el control de las operaciones logísticas.
                 p.mb-0
                   strong Ejemplo:
                   |  tabletas para alistamiento de pedidos, escáneres inalámbricos y sensores que monitorean la temperatura durante el transporte de mercancías.
-              .col-md-6
+              .col-md-12.col-lg-6
                 figure
                   img.img-fluid(src="@/assets/curso/tema1/img_13.png", alt="Un escáner de código de barras lee la etiqueta de un paquete que contiene un código QR y un código de barras.")
 
@@ -213,10 +213,13 @@
         )
         .bloque-texto-g__texto.p-4
           p.mb-0 Son las condiciones técnicas, funcionales y operativas necesarias para garantizar el uso adecuado, seguro y eficiente de una plataforma de comercio electrónico. Estos requerimientos definen las responsabilidades, permisos y recursos tanto de los administradores como de los usuarios, facilitando la gestión de la información, el control de las operaciones, la protección de los datos y una experiencia de compra satisfactoria. Los sistemas de comercio electrónico involucran diferentes perfiles de interacción, entre los cuales se destacan los administradores de la plataforma y los usuarios finales. Cada uno posee necesidades específicas que deben ser consideradas durante el diseño y operación de los sistemas. Entre los requerimientos más importantes se encuentran:
-
+      
+      .titulo-sexto.color-acento-contenido(data-aos="zoom-in-right")
+        h5 Tabla 1.
+        | Requerimientos de administrador y usuario
       .tabla-a.color_primario-20.mb-5(data-aos="zoom-in-right")
         table
-          caption Tabla 1. Requerimientos de administrador y usuario
+          caption Nota. SENA, (2026).
           thead
             tr
               th Requerimiento
@@ -280,14 +283,14 @@
         .col-12.col-lg-8
           .tarjeta.color-terciario-70.p-4(data-aos="zoom-in-right")
             .row.justify-content-around.align-items-center
-              .col-8.col-sm-3.col-lg-2
+              .col-6.col-md-2.col-lg-2.mb-3.mb-sm-0
                 figure
                   img(src="@/assets/curso/tema1/img_17.svg")
-              .col
+              .col-12.col-md-10.col-lg-10
                 .row.justify-content-between.align-items-center
                   .col.mb-3.mb-sm-0
                     p.mb-0 A continuación, se invita a ir al siguiente video para fortalecer los conocimientos relacionados con estrategias de medios y comunicación digital:
-                  .col-sm-auto
+                  .col-sm-auto.text-center
                     a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=M-l7gVm69KI" target="_blank")
                       span Ir al recurso
                       i.fas.fa-file-video
@@ -296,17 +299,17 @@
         .col-12.col-lg-8
           .tarjeta.color-primario.p-4(data-aos="zoom-in-right")
             .row.justify-content-around.align-items-center
-              .col-8.col-sm-2.col-lg-2
+              .col-6.col-md-2.col-lg-2.mb-3.mb-sm-0
                 figure
                   img(src="@/assets/curso/tema1/img_18.svg")
-              .col
+              .col-12.col-md-10.col-lg-10
                 .row.justify-content-between.align-items-center
                   .col.mb-3.mb-sm-0
                     p.mb-0 Se invita al aprendiz a profundizar en gestión del servicio y soporte tecnológico, a través del siguiente artículo:
-                  .col-sm-auto
+                  .col-sm-auto.text-center
                     a.boton.color-acento-botones(href="https://www.centro-virtual.com/recursos/biblioteca/pdf/e-commerce/unidad2_pdf1.pdf" target="_blank")
                       span Ir al recurso
-                      i.fas.fa-file-video
+                      i.fas.fa-file-pdf
 
       .row.justify-content-center.mb-5
         .col-12.col-lg-8

@@ -29,11 +29,11 @@
 
     p.mb-4(data-aos="zoom-in-right") Dentro del comercio electrónico, la estrategia de medios permite cumplir los siguientes objetivos:
 
-    .row.align-items-center.mb-5
-      .col-8.col-lg-4(data-aos="fade-up")
+    .row.justify-content-center.align-items-center.mb-5
+      .col-8.col-lg-6.col-xl-4.mb-3(data-aos="fade-up")
         figure
           img.img-fluid(src="@/assets/curso/tema2/img_3.png", alt="Una asesora con diadema de atención telefónica sonríe, mientras a su alrededor se representan, mediante ilustraciones, un carrito de compras con productos y una esfera del mundo rodeada de paquetes, simbolizando la estrategia de medios y la comunicación digital en el comercio electrónico.")
-      .col-12.col-lg-8.mb-0
+      .col-12.col-lg-12.col-xl-8.mb-3
         SlyderF.circl-arrow.mb-0(columnas="col-lg-6")
           .tarjeta.tarjeta--blanca.border.shadow.p-4.mb-0
             .row.justify-content-center.mb-3
@@ -61,7 +61,7 @@
             p.text-center Orienta las acciones de comunicación para incrementar las ventas, promover productos, fidelizar clientes y contribuir al logro de las metas comerciales definidas por la organización.
 
     .row.align-items-center.mb-5
-      .col-8.col-sm-2.col-lg-1.mb-4.mb-lg-0(data-aos="fade-up")
+      .col-8.col-sm-2.col-lg-1.mb-4.mb-lg-0.d-none.d-lg-block(data-aos="fade-up")
         img.img-fluid(src="@/assets/curso/tema2/img_8.svg", alt="Ícono de una tienda o local comercial, simbolizando el diseño de la estrategia de medios.")
       .col-12.col-lg-11
         .tarjeta.tarjeta--terciario-5.p-4(data-aos="zoom-in-right")
@@ -89,7 +89,7 @@
         figure
           img.img-fluid(src="@/assets/curso/tema2/img_9.png", alt="Una mano toca la pantalla de un teléfono móvil que muestra la palabra “Social Media” y una cuadrícula de aplicaciones, mientras a su alrededor flotan íconos de reacciones y aplicaciones digitales.")
 
-    .row.row-cols-1.row-cols-md-2.row-cols-lg-4.g-4.mb-5
+    .row.row-cols-1.row-cols-md-2.row-cols-lg-2.row-cols-xl-4.g-4.mb-5
       .col
         .tarjeta.tarjeta--blanca.border.shadow.p-4.h-100
           .row.justify-content-center.mb-3
@@ -148,7 +148,7 @@
       .col-12.col-lg-9.mb-0
         .tarjeta.tarjeta--fondo-img-01.p-4.px-5.mb-0(data-aos="zoom-in-right")
           .tarjeta.tarjeta--blanca.mb-0
-            SlyderA.py-4.px-5(tipo="a")
+            SlyderA.py-0.px-0.py-md-4.px-md-5(tipo="a")
               .py-4.px-5
                 h3.h5 Proveedores de internet (ISP)
                 p.mb-0 Proporcionan acceso a Internet para garantizar la conectividad de usuarios, empresas y plataformas, permitiendo la navegación, las compras en línea y la gestión de las operaciones digitales.
@@ -300,14 +300,14 @@
       .col-12.col-lg-8
         .tarjeta.color-terciario-70.p-4(data-aos="zoom-in-right")
           .row.justify-content-around.align-items-center
-            .col-8.col-sm-3.col-lg-2
+            .col-6.col-md-2.col-lg-2.mb-3.mb-sm-0
               figure
                 img(src="@/assets/curso/tema1/img_17.svg")
-            .col
+            .col-12.col-md-10.col-lg-10
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   p.mb-0 A continuación, se invita a ir al siguiente video para fortalecer los conocimientos relacionados con logística de distribución y almacenamiento:
-                .col-sm-auto
+                .col-sm-auto.text-center
                   a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=uHvHpgN70yU" target="_blank")
                     span Ir al recurso
                     i.fas.fa-file-video
@@ -316,17 +316,18 @@
       .col-12.col-lg-8
         .tarjeta.color-primario.p-4(data-aos="zoom-in-right")
           .row.justify-content-around.align-items-center
-            .col-8.col-sm-2.col-lg-2
+            .col-6.col-md-2.col-lg-2.mb-3.mb-sm-0
               figure
                 img(src="@/assets/curso/tema1/img_18.svg")
-            .col
+            .col-12.col-md-10.col-lg-10
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   p.mb-0 Se invita al aprendiz a profundizar en lo relacionado a estrategias de medios y comunicación digital, a través del siguiente libro (página 11-24):
-                .col-sm-auto
+                .col-sm-auto.text-center
                   a.boton.color-acento-botones(href="https://8982035.fs1.hubspotusercontent-na1.net/hubfs/8982035/Publicaciones/documentos/publico/Libro-Blanco-de-Marketing-para-eCommerce.pdf" target="_blank")
                     span Ir al recurso
-                    i.fas.fa-file-video
+                    i.fas.fa-file-pdf
+                    
 </template>
 
 <script>

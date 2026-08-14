@@ -7,7 +7,7 @@
         span 6
       h1 Protección de transacciones financieras y cumplimiento normativo
 
-    .row.align-items-center.mb-0
+    .row.justify-content-center.align-items-center.mb-0
       .col-8.col-lg-3.mb-4.mb-lg-0(data-aos="fade-up")
         figure
           img.img-fluid(src="@/assets/curso/tema6/img_1.png", alt="Una mano sostiene un lápiz sobre unos documentos financieros, junto a una calculadora y un computador portátil.")
@@ -59,7 +59,7 @@
           img.img-fluid(src="@/assets/curso/tema6/img_3.png", alt="Una carpeta amarilla con tarjetas dentro y un ícono de huella digital en un círculo azul oscuro, simbolizando la protección de información financiera.")
         .col-12.col-lg-9
           .tarjeta.tarjeta--blanca.mb-0
-            SlyderA.py-4.px-5(tipo="a")
+            SlyderA.py-0.px-0.py-md-4.px-md-5(tipo="a")
               .py-4.px-5
                 h3.h5 Fraude en transacciones
                 p.mb-0 Comprende acciones dirigidas a realizar pagos, devoluciones o compras utilizando información falsa o medios de pago obtenidos de forma ilícita.
@@ -107,9 +107,12 @@
 
     p.mb-4(data-aos="zoom-in-right") Los sistemas de protección corresponden al conjunto de herramientas, procedimientos y tecnologías implementadas para garantizar la seguridad de las transacciones financieras y la información intercambiada durante las operaciones digitales. Entre los mecanismos más utilizados se encuentran:
 
+    .titulo-sexto.color-acento-contenido(data-aos="zoom-in-right")
+        h5 Tabla 4.
+        | Diferentes sistemas de protección
     .tabla-a.color_primario-20.mb-5(data-aos="zoom-in-right")
       table
-        caption Tabla 4. Diferentes sistemas de protección
+        caption Nota. SENA, (2026).
         thead
           tr
             th Sistema de protección
@@ -146,10 +149,10 @@
             td La tienda virtual utiliza el protocolo HTTPS con TLS para transmitir de forma segura la información de los clientes.
 
     .row.align-items-stretch.mb-0
-      .col-12.col-lg-5.mb-0
+      .col-12.col-lg-5.mb-3
         .tarjeta.tarjeta--terciario-5.p-4.h-100(data-aos="zoom-in-right")
           p.mb-0 Estas soluciones permiten reducir vulnerabilidades y proteger los datos financieros frente a amenazas internas y externas. Además, contribuyen a fortalecer la confianza de los usuarios en las plataformas de comercio electrónico.
-      .col-12.col-lg-7.mb-0
+      .col-12.col-lg-7.mb-3
         .tarjeta.tarjeta--adicional-1.py-4.px-5.h-100.d-flex.align-items-center.justify-content-between(data-aos="zoom-in-right")
           .row.justify-content-center.align-items-center.mb-0
             .col-12.col-lg-9.mb-0
@@ -191,9 +194,12 @@
 
     p.mb-4(data-aos="zoom-in-right") En Colombia, la normatividad que aplica para este tipo de actividades son las siguientes:
 
+    .titulo-sexto.color-acento-contenido(data-aos="zoom-in-right")
+        h5 Tabla 5.
+        | Normatividad en transacciones electrónicas
     .tabla-a.color_primario-20.mb-5(data-aos="zoom-in-right")
       table
-        caption Tabla 5. Normatividad en transacciones electrónicas
+        caption Nota. SENA, (2026).
         thead
           tr
             th Norma
@@ -239,14 +245,14 @@
       .col-12.col-lg-8
         .tarjeta.color-terciario-70.p-4(data-aos="zoom-in-right")
           .row.justify-content-around.align-items-center
-            .col-8.col-sm-3.col-lg-2
+            .col-6.col-md-2.col-lg-2.mb-3.mb-sm-0
               figure
                 img(src="@/assets/curso/tema1/img_17.svg")
-            .col
+            .col-12.col-md-10.col-lg-10
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   p.mb-0 A continuación, se invita a ir al siguiente video para fortalecer los conocimientos relacionados con protección de transacciones financieras y cumplimiento normativo:
-                .col-sm-auto
+                .col-sm-auto.text-center
                   a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=TPyJIfK1NT4" target="_blank")
                     span Ir al recurso
                     i.fas.fa-file-video
@@ -255,17 +261,17 @@
       .col-12.col-lg-8
         .tarjeta.color-primario.p-4(data-aos="zoom-in-right")
           .row.justify-content-around.align-items-center
-            .col-8.col-sm-2.col-lg-2
+            .col-6.col-md-2.col-lg-2.mb-3.mb-sm-0
               figure
                 img(src="@/assets/curso/tema1/img_18.svg")
-            .col
+            .col-12.col-md-10.col-lg-10
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   p.mb-0 Se invita al aprendiz a profundizar en protección de transacciones financieras y cumplimiento normativo, a través del siguiente libro (página 207-211):
-                .col-sm-auto
+                .col-sm-auto.text-center
                   a.boton.color-acento-botones(href="https://colombiatic.mintic.gov.co/679/articles-197363_recurso_1.pdf" target="_blank")
                     span Ir al recurso
-                    i.fas.fa-file-video
+                    i.fas.fa-file-pdf
 
 </template>
 

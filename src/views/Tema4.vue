@@ -29,7 +29,7 @@
 
     p.mb-4(data-aos="zoom-in-right") Los componentes principales de la pasarela de pagos son:
 
-    SlyderF.circl-arrow.mb-5(columnas="col-lg-4")
+    SlyderF.circl-arrow.mb-5(columnas="col-lg-6 col-xl-4")
       .tarjeta.tarjeta--blanca.border.shadow.p-4
         .row.justify-content-center.mb-3
           .col-6
@@ -173,15 +173,15 @@
     #t_4_4.titulo-segundo.color-acento-contenido
       .h2(data-aos="fade-right") 4.4 Soporte tecnológico
 
-    .row.align-items-center.mb-4
+    .row.justify-content-center.align-items-center.mb-4
       .col-12.col-lg-9.mb-0
-        .tarjeta.tarjeta--secundario-5.p-4(data-aos="zoom-in-right")
-          .row.align-items-center.mb-4
-            .col-3.col-lg-2.mb-4.mb-lg-0(data-aos="fade-up")
+        .tarjeta.tarjeta--secundario-5.p-4.mb-3(data-aos="zoom-in-right")
+          .row.justify-content-center.align-items-center.mb-4
+            .col-3.col-lg-2.mb-4.mb-lg-0.d-none.d-lg-block(data-aos="fade-up")
               figure
                 img(src="@/assets/curso/tema4/img_12.svg", alt="Ícono de una persona con auriculares de atención al cliente y una herramienta, simbolizando el soporte tecnológico.")
             .col-12.col-lg-10
-              p.mb-0 Son las actividades técnicas orientadas a garantizar el funcionamiento, mantenimiento y disponibilidad de los equipos, aplicaciones, redes y plataformas utilizadas en el comercio electrónico. Su propósito es prevenir y solucionar incidentes, optimizar el desempeño de los sistemas y asegurar la continuidad de las operaciones. Por otro lado, garantiza la continuidad operativa de los servicios transaccionales y la correcta integración con las plataformas de comercio electrónico.
+              p.mb-3 Son las actividades técnicas orientadas a garantizar el funcionamiento, mantenimiento y disponibilidad de los equipos, aplicaciones, redes y plataformas utilizadas en el comercio electrónico. Su propósito es prevenir y solucionar incidentes, optimizar el desempeño de los sistemas y asegurar la continuidad de las operaciones. Por otro lado, garantiza la continuidad operativa de los servicios transaccionales y la correcta integración con las plataformas de comercio electrónico.
       .col-8.col-lg-3.mb-0
         figure
           img(src="@/assets/curso/tema4/img_13.png", class="img-fluid", alt="Un hombre con audífonos de atención al cliente sonríe frente a un computador portátil mientras sostiene un destornillador, con ilustraciones de un carrito de compras, cajas y monedas, simbolizando el soporte tecnológico.")
@@ -195,7 +195,7 @@
             img.img-fluid(src="@/assets/curso/tema4/img_14.png", alt="Un servidor apilado junto a una nube con flechas de sincronización y una carpeta amarilla, simbolizando la actualización de sistemas.")
         .col-12.col-lg-9
           .tarjeta.tarjeta--blanca.mb-0
-            SlyderA.py-4.px-5(tipo="a")
+            SlyderA.py-0.px-0.py-md-4.px-md-5(tipo="a")
               .py-4.px-5
                 h3.h5 Actualización de sistemas
                 p.mb-0 Incorpora nuevas versiones de software, parches de seguridad y mejoras funcionales para optimizar el rendimiento, corregir vulnerabilidades y mantener la compatibilidad de la plataforma con otros servicios tecnológicos.
@@ -232,8 +232,8 @@
     #t_4_5.titulo-segundo.color-acento-contenido
       .h2(data-aos="fade-right") 4.5 Facturación electrónica
 
-    .row.align-items-center.mb-4
-      .col-8.col-lg-3.mb-4.mb-lg-0(data-aos="fade-up")
+    .row.justify-content-center.align-items-center.mb-4
+      .col-10.col-lg-3.mb-4.mb-lg-0(data-aos="fade-up")
         figure
           img.img-fluid(src="@/assets/curso/tema4/img_16.png", alt="Una mano sostiene un largo recibo o factura impresa, con ilustraciones de un carrito de compras, cajas y un camión de reparto en una calle.")
       .col-12.col-lg-9
@@ -258,14 +258,14 @@
       .col-12.col-lg-8
         .tarjeta.color-terciario-70.p-4(data-aos="zoom-in-right")
           .row.justify-content-around.align-items-center
-            .col-8.col-sm-3.col-lg-2
+            .col-6.col-md-2.col-lg-2.mb-3.mb-sm-0
               figure
                 img(src="@/assets/curso/tema1/img_17.svg")
-            .col
+            .col-12.col-md-10.col-lg-10
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   p.mb-0 A continuación, se invita a ir al siguiente video para fortalecer los conocimientos relacionados con pasarelas de pago y soporte transaccional:
-                .col-sm-auto
+                .col-sm-auto.text-center
                   a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=XfAEtsoDCdI" target="_blank")
                     span Ir al recurso
                     i.fas.fa-file-video
@@ -274,17 +274,17 @@
       .col-12.col-lg-8
         .tarjeta.color-primario.p-4(data-aos="zoom-in-right")
           .row.justify-content-around.align-items-center
-            .col-8.col-sm-2.col-lg-2
+            .col-6.col-md-2.col-lg-2.mb-3.mb-sm-0
               figure
                 img(src="@/assets/curso/tema1/img_18.svg")
-            .col
+            .col-12.col-md-10.col-lg-10
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   p.mb-0 Se invita al aprendiz a profundizar en pasarelas de pago y soporte transaccional, tal como se muestra en el siguiente artículo:
-                .col-sm-auto
+                .col-sm-auto.text-center
                   a.boton.color-acento-botones(href="https://bibliotecadigital.iue.edu.co/server/api/core/bitstreams/ef97a47b-0fc9-4c2d-b21d-747de1849a21/content" target="_blank")
                     span Ir al recurso
-                    i.fas.fa-file-video
+                    i.fas.fa-file-pdf
 
     .row.justify-content-center.mb-0
       .col-12.col-lg-8
