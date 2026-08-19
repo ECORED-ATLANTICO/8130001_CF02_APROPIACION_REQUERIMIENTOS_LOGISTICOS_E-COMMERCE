@@ -146,40 +146,40 @@
         figure
           img.img-fluid(src="@/assets/curso/tema2/img_14.png", alt="Una persona sostiene una taza mientras escribe en un computador portátil que muestra el sitio web de alquiler de vehículos “Car for rent”.")
       .col-12.col-lg-9.mb-0
-        .tarjeta.tarjeta--fondo-img-01.p-4.px-5.mb-3(data-aos="zoom-in-right")
+        .tarjeta.tarjeta--fondo-img-01.p-2.p-md-4.px-3.p-lg-4.p-xl-5.mb-3(data-aos="zoom-in-right")
           .tarjeta.tarjeta--blanca.mb-0
-            SlyderA.py-0.px-0.py-md-4.px-md-5(tipo="a")
-              .py-4.px-5
+            SlyderA.py-4.px-3(tipo="a")
+              .py-3.px-4.p-md-4.p-lg-3.p-xl-4
                 h3.h5 Proveedores de internet (ISP)
                 p.mb-0 Proporcionan acceso a Internet para garantizar la conectividad de usuarios, empresas y plataformas, permitiendo la navegación, las compras en línea y la gestión de las operaciones digitales.
                 p.mb-0
                   strong Ejemplo:
                   |  Claro, Movistar o Tigo suministran la conexión utilizada para administrar una tienda virtual.
-              .py-4.px-5
+              .py-3.px-4.p-md-4.p-lg-3.p-xl-4
                 h3.h5 Alojamiento web
                 p.mb-0 Proporciona el espacio, los recursos tecnológicos y la infraestructura necesarios para almacenar y publicar un sitio web o una tienda virtual en Internet.
                 p.mb-0
                   strong Ejemplo:
                   |  Hostinger, GoDaddy o AWS (Amazon Web Services).
-              .py-4.px-5
+              .py-3.px-4.p-md-4.p-lg-3.p-xl-4
                 h3.h5 Proveedores de correo electrónico
                 p.mb-0 Permiten enviar y recibir mensajes relacionados con promociones, confirmaciones de compra, facturación electrónica y atención al cliente.
                 p.mb-0
                   strong Ejemplo:
                   |  Gmail, Outlook o Microsoft 365 envían la confirmación de una compra realizada.
-              .py-4.px-5
+              .py-3.px-4.p-md-4.p-lg-3.p-xl-4
                 h3.h5 Plataformas de videoconferencia
                 p.mb-0 Permiten realizar reuniones virtuales, demostraciones de productos, capacitaciones y atención personalizada cuando la comunicación requiere interacción en tiempo real.
                 p.mb-0
                   strong Ejemplo:
                   |  Microsoft Teams o Google Meet para presentar un nuevo catálogo a clientes empresariales.
-              .py-4.px-5
+              .py-3.px-4.p-md-4.p-lg-3.p-xl-4
                 h3.h5 Redes sociales
                 p.mb-0 Funcionan como canales de comunicación y promoción que fortalecen la interacción con los clientes, la difusión de contenidos y el posicionamiento de la marca.
                 p.mb-0
                   strong Ejemplo:
                   |  Facebook, Instagram o LinkedIn publican promociones y responden consultas de los usuarios.
-              .py-4.px-5
+              .py-3.px-4.p-md-4.p-lg-3.p-xl-4
                 h3.h5 Proveedores de servicios en la nube
                 p.mb-0 Ofrecen infraestructura y aplicaciones que soportan los sistemas de comunicación, almacenamiento y colaboración utilizados por las empresas de <em>e-commerce</em>.
                 p.mb-0

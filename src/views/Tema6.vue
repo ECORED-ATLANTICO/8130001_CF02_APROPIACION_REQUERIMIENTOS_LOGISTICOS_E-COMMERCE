@@ -53,32 +53,32 @@
         figure
           img.img-fluid(src="@/assets/curso/tema6/img_2.png", alt="Una persona con capucha, guantes negros y una máscara blanca sostiene el cierre de su chaqueta, con ilustraciones de un globo terráqueo con paquetes y un carrito de compras alrededor.")
 
-    .tarjeta.tarjeta--fondo-img-01.p-4.px-5.mb-5(data-aos="zoom-in-right")
+    .tarjeta.tarjeta--fondo-img-01.p-2.p-md-4.px-3.p-lg-4.p-xl-5.mb-3(data-aos="zoom-in-right")
       .row.align-items-center
         .col-4.col-lg-3.d-none.d-lg-block.text-center
           img.img-fluid(src="@/assets/curso/tema6/img_3.png", alt="Una carpeta amarilla con tarjetas dentro y un ícono de huella digital en un círculo azul oscuro, simbolizando la protección de información financiera.")
         .col-12.col-lg-9
           .tarjeta.tarjeta--blanca.mb-0
-            SlyderA.py-0.px-0.py-md-4.px-md-5(tipo="a")
-              .py-4.px-5
+            SlyderA.py-4.px-3(tipo="a")
+              .py-3.px-4.p-md-4.p-lg-5.p-xl-5
                 h3.h5 Fraude en transacciones
                 p.mb-0 Comprende acciones dirigidas a realizar pagos, devoluciones o compras utilizando información falsa o medios de pago obtenidos de forma ilícita.
                 p.mb-0
                   strong Ejemplo:
                   |  un comprador utiliza una tarjeta clonada para adquirir productos en una tienda virtual.
-              .py-4.px-5
+              .py-3.px-4.p-md-4.p-lg-5.p-xl-5
                 h3.h5 Acceso no autorizado
                 p.mb-0 Se produce cuando una persona ingresa a sistemas, cuentas o plataformas sin los permisos correspondientes para consultar o modificar información.
                 p.mb-0
                   strong Ejemplo:
                   |  un atacante accede al panel administrativo de la tienda virtual mediante credenciales comprometidas.
-              .py-4.px-5
+              .py-3.px-4.p-md-4.p-lg-5.p-xl-5
                 h3.h5 Vulnerabilidades del sistema
                 p.mb-0 Corresponden a fallas de configuración, software desactualizado o errores técnicos que pueden ser aprovechados para comprometer la seguridad de las transacciones.
                 p.mb-0
                   strong Ejemplo:
                   |  una plataforma sin actualizaciones de seguridad permite la explotación de una vulnerabilidad conocida.
-              .py-4.px-5
+              .py-3.px-4.p-md-4.p-lg-5.p-xl-5
                 h3.h5 Indisponibilidad del servicio
                 p.mb-0 Ocurre cuando la plataforma o los servicios de pago dejan de estar disponibles, afectando la realización de las transacciones electrónicas.
                 p.mb-0

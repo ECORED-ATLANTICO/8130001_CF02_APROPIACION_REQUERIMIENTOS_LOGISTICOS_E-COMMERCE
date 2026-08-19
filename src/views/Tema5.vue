@@ -85,48 +85,48 @@
         p.mb-3(data-aos="zoom-in-right") Las pruebas de interfaz se enfocan en evaluar los elementos visuales y funcionales con los cuales interactúan los usuarios dentro de una plataforma digital. Su propósito es verificar que la navegación, el diseño, los controles y la presentación de la información sean claros, consistentes y fáciles de utilizar, favoreciendo una experiencia de compra satisfactoria y reduciendo los errores durante la interacción.
         p.mb-0(data-aos="zoom-in-right") Durante estas pruebas se verifican aspectos relacionados con:
 
-    .tarjeta.tarjeta--fondo-img-04.p-4.px-5.mb-4(data-aos="zoom-in-right")
+    .tarjeta.tarjeta--fondo-img-04.p-2.p-md-4.px-3.p-lg-4.p-xl-5.mb-3(data-aos="zoom-in-right")
       .row.align-items-center
         .col-12.col-lg-8
           .tarjeta.tarjeta--blanca.mb-0
-            SlyderA.py-0.px-0.py-md-4.px-md-5(tipo="a")
-              .py-4.px-5
+            SlyderA.py-4.px-3(tipo="a")
+              .py-3.px-4.p-md-4.p-lg-5.p-xl-5
                 h3.h5 Diseño
                 p.mb-0 Verifica que la distribución de los elementos, colores, tipografía e imágenes mantengan una presentación uniforme, favoreciendo una navegación clara y una experiencia visual coherente para el usuario.
                 p.mb-0
                   strong Ejemplo:
                   |  se comprueba que el catálogo de Mercado Libre conserve el mismo diseño y organización al navegar entre las diferentes categorías de productos.
-              .py-4.px-5
+              .py-3.px-4.p-md-4.p-lg-5.p-xl-5
                 h3.h5 Accesibilidad
                 p.mb-0 Comprueba que la interfaz pueda ser utilizada por personas con diferentes capacidades, incorporando elementos que faciliten el acceso, la navegación y la comprensión del contenido.
                 p.mb-0
                   strong Ejemplo:
                   |  se verifica que la tienda virtual permita navegar mediante el teclado y que las imágenes incluyan texto alternativo para lectores de pantalla.
-              .py-4.px-5
+              .py-3.px-4.p-md-4.p-lg-5.p-xl-5
                 h3.h5 Organización de contenidos
                 p.mb-0 Evalúa la estructura y disposición de la información para garantizar que los usuarios encuentren fácilmente productos, servicios y opciones durante el proceso de compra.
                 p.mb-0
                   strong Ejemplo:
                   |  se valida que los productos estén organizados por categorías y que el buscador facilite la localización de un artículo específico.
-              .py-4.px-5
+              .py-3.px-4.p-md-4.p-lg-5.p-xl-5
                 h3.h5 Funcionamiento de botones
                 p.mb-0 Confirma que los botones ejecuten correctamente la acción prevista y respondan de forma oportuna a la interacción del usuario dentro de la plataforma.
                 p.mb-0
                   strong Ejemplo:
                   |  se comprueba que el botón "Agregar al carrito" incorpore el producto seleccionado y actualice automáticamente el carrito de compras.
-              .py-4.px-5
+              .py-3.px-4.p-md-4.p-lg-5.p-xl-5
                 h3.h5 Formularios
                 p.mb-0 Valida el correcto ingreso, verificación y envío de la información suministrada por los usuarios, evitando errores durante el registro, la compra o el pago.
                 p.mb-0
                   strong Ejemplo:
                   |  se verifica que el formulario de registro solicite los datos obligatorios y notifique cuando un correo electrónico tiene un formato incorrecto.
-              .py-4.px-5
+              .py-3.px-4.p-md-4.p-lg-5.p-xl-5
                 h3.h5 Enlaces
                 p.mb-0 Corrobora que los vínculos dirijan a las páginas o recursos correspondientes, evitando enlaces rotos o rutas que afecten la navegación del usuario.
                 p.mb-0
                   strong Ejemplo:
                   |  se verifica que el enlace "Ver detalles del producto" abra correctamente la página con la información completa del artículo.
-              .py-4.px-5
+              .py-3.px-4.p-md-4.p-lg-5.p-xl-5
                 h3.h5 Elementos gráficos
                 p.mb-0 Revisa que imágenes, iconos, banners y demás recursos visuales se visualicen correctamente y contribuyan a la comprensión y usabilidad de la plataforma.
                 p.mb-0

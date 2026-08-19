@@ -199,27 +199,27 @@
     
     p.mb-4(data-aos="zoom-in-right") Entre las actividades de soporte se encuentran:
 
-    .tarjeta.tarjeta--fondo-img-01.p-4.px-5.mb-0(data-aos="zoom-in-right")
+    .tarjeta.tarjeta--fondo-img-01.p-2.p-md-4.px-3.p-lg-4.p-xl-5.mb-3(data-aos="zoom-in-right")
       .row.align-items-center
         .col-8.col-lg-3.d-none.d-lg-block.text-center
           figure
             img.img-fluid(src="@/assets/curso/tema4/img_14.png", alt="Un servidor apilado junto a una nube con flechas de sincronización y una carpeta amarilla, simbolizando la actualización de sistemas.")
         .col-12.col-lg-9
           .tarjeta.tarjeta--blanca.mb-0
-            SlyderA.py-0.px-0.py-md-4.px-md-5(tipo="a")
-              .py-4.px-5
+            SlyderA.py-4.px-3(tipo="a")
+              .py-3.px-4.p-md-4.p-lg-5.p-xl-5
                 h3.h5 Actualización de sistemas
                 p.mb-0 Incorpora nuevas versiones de software, parches de seguridad y mejoras funcionales para optimizar el rendimiento, corregir vulnerabilidades y mantener la compatibilidad de la plataforma con otros servicios tecnológicos.
-              .py-4.px-5
+              .py-3.px-4.p-md-4.p-lg-5.p-xl-5
                 h3.h5 Monitoreo de operaciones
                 p.mb-0 Supervisa continuamente el funcionamiento de la plataforma, las transacciones y los recursos tecnológicos para detectar anomalías, prevenir fallas y garantizar la continuidad de las operaciones.
-              .py-4.px-5
+              .py-3.px-4.p-md-4.p-lg-5.p-xl-5
                 h3.h5 Solución de incidentes
                 p.mb-0 Restablece el funcionamiento de los servicios mediante la identificación, análisis y corrección de fallas que afectan la operación de la plataforma o la experiencia del usuario.
-              .py-4.px-5
+              .py-3.px-4.p-md-4.p-lg-5.p-xl-5
                 h3.h5 Mantenimiento de conexiones con entidades financieras
                 p.mb-0 Garantiza la disponibilidad y el correcto funcionamiento de la comunicación entre la plataforma de <em>e-commerce</em>, las pasarelas de pago y las entidades financieras durante las transacciones electrónicas.
-              .py-4.px-5
+              .py-3.px-4.p-md-4.p-lg-5.p-xl-5
                 h3.h5 Gestión de seguridad informática
                 p.mb-0 Implementa controles, políticas y mecanismos de protección para prevenir accesos no autorizados, salvaguardar la información y reducir los riesgos asociados a amenazas informáticas.
 
