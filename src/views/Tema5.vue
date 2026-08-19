@@ -30,7 +30,7 @@
     .titulo-sexto.color-acento-contenido(data-aos="zoom-in-right")
         h5 Tabla 3.
         | Diferentes pruebas de servicio 
-    .tabla-a.color_primario-20.mb-5(data-aos="zoom-in-right")
+    .tabla-a.color_primario-20.mb-3(data-aos="zoom-in-right")
       table
         caption Nota. SENA, (2026).
         thead
@@ -77,8 +77,8 @@
     #t_5_2.titulo-segundo.color-acento-contenido
       .h2(data-aos="fade-right") 5.2 Pruebas de interfaz
 
-    .row.align-items-center.mb-4
-      .col-8.col-lg-3.mb-4.mb-lg-0(data-aos="fade-up")
+    .row.justify-content-center.align-items-center.mb-4
+      .col-12.col-md-12.col-lg-3.mb-4.mb-lg-0(data-aos="fade-up")
         figure
           img.img-fluid(src="@/assets/curso/tema5/img_3.png", alt="Una mujer sostiene una tarjeta y un teléfono móvil frente a un computador portátil que muestra el sitio web de una tienda de moda con productos en oferta.")
       .col-12.col-lg-9
@@ -136,7 +136,7 @@
           img.img-fluid(src="@/assets/curso/tema5/img_4.png", alt="Unas manos manipulan un panel de diseño de interfaz con herramientas de edición de texto, imagen y tipografía.")
 
     p.mb-3(data-aos="zoom-in-right") Una interfaz adecuada facilita la interacción del usuario y mejora la experiencia de compra. Por el contrario, errores de navegación o diseños poco intuitivos pueden generar abandono de procesos y pérdida de oportunidades comerciales.
-    p.mb-4(data-aos="zoom-in-right") Por ejemplo, si un botón de pago no funciona correctamente o resulta difícil de localizar, la organización puede experimentar disminución en la conversión de ventas.
+    p.mb-3(data-aos="zoom-in-right") Por ejemplo, si un botón de pago no funciona correctamente o resulta difícil de localizar, la organización puede experimentar disminución en la conversión de ventas.
 
     Separador
 
@@ -258,7 +258,7 @@
 
     .row.justify-content-center.mb-5.mt-4
       .col-12.col-lg-8
-        .tarjeta.tarjeta--primario-5.p-4.text-center(data-aos="zoom-in-right")
+        .tarjeta.tarjeta--primario-10.p-4.text-center(data-aos="zoom-in-right")
           p.mb-0 Por ejemplo, antes de poner en funcionamiento una tienda virtual, la empresa puede ejecutar pruebas del sistema para verificar que todas las funcionalidades trabajen correctamente de manera integrada.
 
     .row.justify-content-center.mb-5

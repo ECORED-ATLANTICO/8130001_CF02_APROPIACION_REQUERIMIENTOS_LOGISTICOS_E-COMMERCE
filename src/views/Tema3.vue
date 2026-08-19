@@ -20,8 +20,8 @@
     #t_3_1.titulo-segundo.color-acento-contenido
       .h2(data-aos="fade-right") 3.1 Protección de datos
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-8.col-lg-3.mb-4.mb-lg-0(data-aos="fade-up")
+    .row.justify-content-center.align-items-center.mb-3
+      .col-10.col-md-8.col-lg-3.mb-4.mb-lg-0(data-aos="fade-up")
         figure
           img.img-fluid(src="@/assets/curso/tema3/img_2.png", alt="Unas manos escriben en un computador portátil mientras se proyecta un holograma de un candado de seguridad rodeado de íconos de documento, nube y carpeta, representando la protección de datos.")
       .col-12.col-lg-9
@@ -90,9 +90,9 @@
             td Regula el uso de los mensajes de datos, el comercio y las firmas electrónicos, otorgando validez jurídica a las transacciones realizadas por medios electrónicos.
             td Una compra realizada mediante una tienda virtual tiene validez jurídica cuando cumple los requisitos establecidos por la ley.
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-3
       .col-12.col-lg-8
-        .tarjeta.tarjeta--primario-5.p-4.text-center(data-aos="zoom-in-right")
+        .tarjeta.tarjeta--primario-10.p-4.text-center(data-aos="zoom-in-right")
           p.mb-0 El cumplimiento de estas disposiciones permite a las organizaciones operar dentro de parámetros legales y fortalecer la confianza de los usuarios en los servicios digitales.
 
     Separador
@@ -205,7 +205,7 @@
         figure
           img.img-fluid(src="@/assets/curso/tema3/img_6.png", alt="Un computador portátil muestra una maqueta de publicación de Instagram, mientras a su alrededor se representan un globo terráqueo con paquetes, un carrito de compras y una calle con un camión de reparto.")
 
-    .row.row-cols-1.row-cols-md-2.g-4.mb-5
+    .row.row-cols-1.row-cols-md-1.row-cols-lg-2.g-4.mb-5
       .col
         .tarjeta.tarjeta--secundario-5.border.shadow.overflow-hidden.h-100(data-aos="fade-up")
           img.w-100.object-fit-cover(style="height: 220px; object-position: center;" src="@/assets/curso/tema3/img_7.png", alt="Un hombre sostiene un teléfono móvil mientras en un panel holográfico se muestran un candado con una marca de verificación y un campo de contraseña.")

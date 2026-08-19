@@ -89,7 +89,7 @@ export default {
           },
           {
             numero: '2.5',
-            titulo: '<em>KPI</em>',
+            titulo: 'KPI',
             hash: 't_2_5',
           },
         ],
@@ -285,7 +285,7 @@ export default {
         'Conjunto de actividades orientadas a garantizar la calidad y continuidad del servicio.',
     },
     {
-      termino: 'Indicador <em>KPI</em>',
+      termino: 'Indicador KPI',
       significado:
         'Métrica utilizada para medir el desempeño de procesos y objetivos.',
     },

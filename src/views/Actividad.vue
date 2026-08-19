@@ -152,7 +152,7 @@ export default {
         },
         {
           id: 5,
-          texto: '¿Qué representan los indicadores <em>KPI</em>?',
+          texto: '¿Qué representan los indicadores KPI?',
           imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
@@ -175,7 +175,7 @@ export default {
             { id: 'd', texto: 'Estrategias promocionales.', esCorrecta: false },
           ],
           mensaje_correcto:
-            '¡Correcto! Los <em>KPI</em> permiten medir el desempeño y cumplimiento de los objetivos organizacionales.',
+            '¡Correcto! Los KPI permiten medir el desempeño y cumplimiento de los objetivos organizacionales.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },

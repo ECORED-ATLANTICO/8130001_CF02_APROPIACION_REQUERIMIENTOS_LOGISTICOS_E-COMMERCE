@@ -8,7 +8,7 @@
       h1 Protección de transacciones financieras y cumplimiento normativo
 
     .row.justify-content-center.align-items-center.mb-0
-      .col-8.col-lg-3.mb-4.mb-lg-0(data-aos="fade-up")
+      .col-12.col-md-10.col-lg-3.mb-4.mb-lg-0(data-aos="fade-up")
         figure
           img.img-fluid(src="@/assets/curso/tema6/img_1.png", alt="Una mano sostiene un lápiz sobre unos documentos financieros, junto a una calculadora y un computador portátil.")
       .col-12.col-lg-9

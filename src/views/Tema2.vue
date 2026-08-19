@@ -7,7 +7,7 @@
         span 2
       h1 Estrategias de medios y comunicación digital
 
-    .bloque-texto-g.bloque-texto-g--inverso.color-secundario-5.p-3.p-sm-4.p-md-5(data-aos="zoom-in-right")
+    .bloque-texto-g.bloque-texto-g--inverso.color-secundario-10.p-3.p-sm-4.p-md-5(data-aos="zoom-in-right")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema2/img_1.png')})`}"
         role="img"
@@ -60,7 +60,7 @@
             h4.text-center Apoyar el cumplimiento de metas comerciales
             p.text-center Orienta las acciones de comunicación para incrementar las ventas, promover productos, fidelizar clientes y contribuir al logro de las metas comerciales definidas por la organización.
 
-    .row.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-3
       .col-8.col-sm-2.col-lg-1.mb-4.mb-lg-0.d-none.d-lg-block(data-aos="fade-up")
         img.img-fluid(src="@/assets/curso/tema2/img_8.svg", alt="Ícono de una tienda o local comercial, simbolizando el diseño de la estrategia de medios.")
       .col-12.col-lg-11
@@ -146,7 +146,7 @@
         figure
           img.img-fluid(src="@/assets/curso/tema2/img_14.png", alt="Una persona sostiene una taza mientras escribe en un computador portátil que muestra el sitio web de alquiler de vehículos “Car for rent”.")
       .col-12.col-lg-9.mb-0
-        .tarjeta.tarjeta--fondo-img-01.p-4.px-5.mb-0(data-aos="zoom-in-right")
+        .tarjeta.tarjeta--fondo-img-01.p-4.px-5.mb-3(data-aos="zoom-in-right")
           .tarjeta.tarjeta--blanca.mb-0
             SlyderA.py-0.px-0.py-md-4.px-md-5(tipo="a")
               .py-4.px-5
@@ -186,7 +186,7 @@
                   strong Ejemplo:
                   |  Microsoft Azure, Amazon Web Services (AWS) o Google Cloud alojan aplicaciones y servicios de comunicación empresarial.
 
-    p.mb-4(data-aos="zoom-in-right") La selección de un proveedor adecuado debe considerar aspectos relacionados con calidad del servicio, cobertura, disponibilidad, soporte técnico, seguridad y costos operativos.
+        p.mb-4(data-aos="zoom-in-right") La selección de un proveedor adecuado debe considerar aspectos relacionados con calidad del servicio, cobertura, disponibilidad, soporte técnico, seguridad y costos operativos.
 
     .row.justify-content-center.align-items-center.mb-0
       .col-12.col-lg-8.mb-0
@@ -272,7 +272,7 @@
       .col-1.d-none.d-lg-block(data-aos="fade-up")
         img.img-fluid(src="@/assets/curso/tema2/img_20.svg", alt="Ícono de una lupa con una flecha de crecimiento y un documento, simbolizando el análisis de indicadores clave de desempeño.")
       .col-12.col-lg-11
-        p.mb-0(data-aos="zoom-in-right") Los indicadores clave de desempeño o Key Performance Indicators (KPI) son métricas utilizadas para medir la eficacia de las estrategias de comunicación digital y el cumplimiento de los objetivos organizacionales. Su propósito consiste en proporcionar información objetiva para apoyar la toma de decisiones y promover la mejora continua.
+        p.mb-0(data-aos="zoom-in-right") Los indicadores clave de desempeño o <em>Key Performance Indicators</em> (KPI) son métricas utilizadas para medir la eficacia de las estrategias de comunicación digital y el cumplimiento de los objetivos organizacionales. Su propósito consiste en proporcionar información objetiva para apoyar la toma de decisiones y promover la mejora continua.
 
     p.mb-5(data-aos="zoom-in-right") Entre los KPI más utilizados en medios digitales se encuentran:
 

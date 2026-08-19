@@ -18,16 +18,27 @@
     #t_4_1.titulo-segundo.color-acento-contenido
       .h2(data-aos="fade-right") 4.1 Pasarelas de pago
 
-    .row.align-items-center.mb-4
+    .row.justify-content-center.align-items-center.mb-4
       .col-12.col-lg-7
         p.mb-3(data-aos="zoom-in-right") Las pasarelas de pago son plataformas tecnológicas que permiten procesar, validar y autorizar pagos realizados a través de medios electrónicos. Su función principal consiste en facilitar la transferencia segura de información entre el cliente, el comercio y la entidad financiera encargada de aprobar la transacción. Estas herramientas permiten que los usuarios realicen pagos mediante tarjetas débito, tarjetas crédito, transferencias bancarias, billeteras digitales y otros mecanismos electrónicos. Gracias a su utilización, las empresas pueden ofrecer alternativas de pago que mejoran la experiencia de compra y amplían sus oportunidades de negocio.
-        .tarjeta.tarjeta--acento-contenido-5.p-4(data-aos="zoom-in-right")
-          p.mb-0 En el comercio electrónico, las pasarelas de pago contribuyen a generar confianza en los consumidores al proporcionar procesos seguros para la gestión de transacciones financieras.
-      .col-8.col-lg-5(data-aos="fade-up")
-        figure
-          img(src="@/assets/curso/tema4/img_2.png",, class="img-fluid" alt="Una mujer sonríe mientras sostiene una tarjeta de crédito frente a un computador portátil, con ilustraciones de un carrito de compras, cajas y una esfera del mundo rodeada de paquetes.")
 
-    p.mb-4(data-aos="zoom-in-right") Los componentes principales de la pasarela de pagos son:
+        .tarjeta.tarjeta--acento-contenido-5.p-4.mb-3(data-aos="zoom-in-right")
+          p.mb-0 En el comercio electrónico, las pasarelas de pago contribuyen a generar confianza en los consumidores al proporcionar procesos seguros para la gestión de transacciones financieras.
+
+        p.mb-4.d-none.d-lg-block(data-aos="zoom-in-right") Los componentes principales de la pasarela de pagos son:
+
+      .col-8.col-lg-5(data-aos="fade-up").mb-3
+        figure
+          img(
+            src="@/assets/curso/tema4/img_2.png"
+            class="img-fluid"
+            alt="Una mujer sonríe mientras sostiene una tarjeta de crédito frente a un computador portátil, con ilustraciones de un carrito de compras, cajas y una esfera del mundo rodeada de paquetes."
+          )
+
+      .col-12.d-block.d-lg-none
+        p.mb-4(data-aos="zoom-in-right") Los componentes principales de la pasarela de pagos son:
+
+    
 
     SlyderF.circl-arrow.mb-5(columnas="col-lg-6 col-xl-4")
       .tarjeta.tarjeta--blanca.border.shadow.p-4
@@ -103,7 +114,7 @@
         p.mb-0 Existen diferentes tipos de pasarelas de pago, las cuales pueden clasificarse según la forma en que procesan las transacciones y la experiencia que ofrecen al usuario durante el proceso de compra. Cada una presenta características específicas relacionadas con la gestión del pago, la integración con la tienda virtual, el nivel de control del comercio y la seguridad de la información. Las más empleadas por las empresas de comercio digital son:
 
     .row.justify-content-center.align-items-start.mb-4
-      .col-8.col-lg-3.mb-4.mb-lg-0(data-aos="flip-left")
+      .col-10.col-md-8.col-lg-3.mb-4.mb-lg-0(data-aos="flip-left")
         figure
           img(src="@/assets/curso/tema4/img_9.png",, class="img-fluid" alt="Una mano sostiene un teléfono móvil mientras escribe en un computador portátil, con ilustraciones de un carrito de compras, cajas y monedas, en el contexto de una compra en línea.")
       .col-12.col-lg-9.mb-0(data-aos="flip-left")
@@ -182,7 +193,7 @@
                 img(src="@/assets/curso/tema4/img_12.svg", alt="Ícono de una persona con auriculares de atención al cliente y una herramienta, simbolizando el soporte tecnológico.")
             .col-12.col-lg-10
               p.mb-3 Son las actividades técnicas orientadas a garantizar el funcionamiento, mantenimiento y disponibilidad de los equipos, aplicaciones, redes y plataformas utilizadas en el comercio electrónico. Su propósito es prevenir y solucionar incidentes, optimizar el desempeño de los sistemas y asegurar la continuidad de las operaciones. Por otro lado, garantiza la continuidad operativa de los servicios transaccionales y la correcta integración con las plataformas de comercio electrónico.
-      .col-8.col-lg-3.mb-0
+      .col-12.col-md-10.col-lg-3.mb-0
         figure
           img(src="@/assets/curso/tema4/img_13.png", class="img-fluid", alt="Un hombre con audífonos de atención al cliente sonríe frente a un computador portátil mientras sostiene un destornillador, con ilustraciones de un carrito de compras, cajas y monedas, simbolizando el soporte tecnológico.")
     
