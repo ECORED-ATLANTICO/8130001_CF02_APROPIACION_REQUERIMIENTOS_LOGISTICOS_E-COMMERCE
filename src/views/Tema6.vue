@@ -183,7 +183,7 @@
     #t_6_4.titulo-segundo.color-acento-contenido
       .h2(data-aos="fade-right") 6.4 Normativa aplicable a transacciones electrónicas
 
-    .bloque-texto-g.color-secundario-5.p-3.p-sm-4.p-md-5.mb-5(data-aos="zoom-in-right")
+    .bloque-texto-g.color-secundario-10.p-3.p-sm-4.p-md-5.mb-5(data-aos="zoom-in-right")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema6/img_5.png')})`}"
         role="img"
@@ -281,14 +281,6 @@ export default {
   data: () => ({
     // variables de vue
   }),
-  mounted() {
-    this.$nextTick(() => {
-      this.$aosRefresh()
-    })
-  },
-  updated() {
-    this.$aosRefresh()
-  },
 }
 </script>
 

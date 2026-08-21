@@ -46,7 +46,7 @@
     #t_3_2.titulo-segundo.color-acento-contenido
       .h2(data-aos="fade-right") 3.2 Normativa
 
-    .bloque-texto-g.bloque-texto-g--inverso.color-secundario-5.p-3.p-sm-4.p-md-5.mb-5(data-aos="zoom-in-right")
+    .bloque-texto-g.bloque-texto-g--inverso.color-secundario-10.p-3.p-sm-4.p-md-5.mb-5(data-aos="zoom-in-right")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema3/img_3.png')})`}"
         role="img"
@@ -219,7 +219,7 @@
             h4 Control de accesos
             p.mb-0 Regula el ingreso y uso de los recursos tecnológicos mediante permisos y restricciones, asegurando que cada usuario acceda únicamente a la información y funciones autorizadas.
 
-    .bloque-texto-g.color-secundario-5.p-3.p-sm-4.p-md-5.mb-4(data-aos="zoom-in-right")
+    .bloque-texto-g.color-secundario-10.p-3.p-sm-4.p-md-5.mb-4(data-aos="zoom-in-right")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema3/img_9.png')})`}"
         role="img"
@@ -279,14 +279,6 @@ export default {
   data: () => ({
     // variables de vue
   }),
-  mounted() {
-    this.$nextTick(() => {
-      this.$aosRefresh()
-    })
-  },
-  updated() {
-    this.$aosRefresh()
-  },
 }
 </script>
 

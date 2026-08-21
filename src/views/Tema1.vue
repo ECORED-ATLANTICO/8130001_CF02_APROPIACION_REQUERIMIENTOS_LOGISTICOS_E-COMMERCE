@@ -28,22 +28,22 @@
           .tarjeta.tarjeta--fondo-img-01.p-2.p-md-4.px-3.p-lg-4.p-xl-5.mb-0(data-aos="zoom-in-right")
             .tarjeta.tarjeta--blanca.mb-0
               SlyderA.py-4.px-5(tipo="a")
-                .py-3.px-4.p-md-4.p-lg-3.p-xl-5
+                .py-3.px-4.p-md-4.p-lg-3.p-xl-4
                   h3.h5 Atención al cliente
                   p.mb-0 Brinda orientación y acompañamiento antes, durante y después de la compra, resolviendo consultas, suministrando información oportuna y ofreciendo soluciones que fortalecen la confianza, la satisfacción y la relación con el cliente.
-                .py-3.px-4.p-md-4.p-lg-3.p-xl-5
+                .py-3.px-4.p-md-4.p-lg-3.p-xl-4
                   h3.h5 Administración de pedidos
                   p.mb-0 Coordina el registro, procesamiento, preparación, despacho y entrega de los pedidos, garantizando información actualizada, cumplimiento de los tiempos establecidos y control de cada etapa del proceso logístico.
-                .py-3.px-4.p-md-4.p-lg-3.p-xl-5
+                .py-3.px-4.p-md-4.p-lg-3.p-xl-4
                   h3.h5 Soporte técnico
                   p.mb-0 Atiende inconvenientes relacionados con la plataforma, los medios de pago, el acceso a la cuenta o el funcionamiento de los servicios digitales, asegurando una solución ágil que facilite la continuidad de la compra.
-                .py-3.px-4.p-md-4.p-lg-3.p-xl-5
+                .py-3.px-4.p-md-4.p-lg-3.p-xl-4
                   h3.h5 Gestión de reclamos
                   p.mb-0 Recibe, analiza y resuelve las inconformidades presentadas por los clientes, aplicando procedimientos establecidos que permitan ofrecer respuestas oportunas, soluciones adecuadas y acciones para prevenir situaciones similares.
-                .py-3.px-4.p-md-4.p-lg-3.p-xl-5
+                .py-3.px-4.p-md-4.p-lg-3.p-xl-4
                   h3.h5 Seguimiento de solicitudes
                   p.mb-0 Controla el estado de consultas, requerimientos, cambios, devoluciones y demás solicitudes, manteniendo comunicación permanente con el cliente hasta confirmar la atención y el cierre satisfactorio del proceso.
-                .py-3.px-4.p-md-4.p-lg-3.p-xl-5
+                .py-3.px-4.p-md-4.p-lg-3.p-xl-4
                   h3.h5 Mejora continua de la experiencia de compra
                   p.mb-0 Evalúa resultados, recopila opiniones y analiza indicadores para identificar oportunidades de mejora que optimicen los procesos, incrementen la satisfacción del cliente y fortalezcan la calidad del servicio ofrecido.
 
@@ -332,14 +332,6 @@ export default {
   data: () => ({
     // variables de vue
   }),
-  mounted() {
-    this.$nextTick(() => {
-      this.$aosRefresh()
-    })
-  },
-  updated() {
-    this.$aosRefresh()
-  },
 }
 </script>
 

@@ -61,7 +61,7 @@ const router = createRouter({
           path: 'tema6',
           name: 'tema6',
           component: () =>
-            import(/* webpackChunkName: "tema6" */ '../views/Tema6.vue'),
+            import(/* webpackChunkName: "tema5" */ '../views/Tema6.vue'),
         },
       ],
     },
