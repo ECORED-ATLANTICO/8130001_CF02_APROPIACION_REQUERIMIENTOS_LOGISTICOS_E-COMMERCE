@@ -125,7 +125,7 @@ export default {
       {
         nombreRuta: 'tema4',
         numero: '4',
-        titulo: 'Pasarelas de pago',
+        titulo: 'Pasarelas de pago y soporte transaccional',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -207,7 +207,7 @@ export default {
           },
           {
             numero: '6.4',
-            titulo: 'Normativa aplicable a las transacciones electrónicas',
+            titulo: 'Normativa aplicable a transacciones electrónicas',
             hash: 't_6_4',
           },
         ],
@@ -239,7 +239,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/8130001_CF02_DU.pdf',
+        download: 'downloads/8130001_CF02_CFA.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -257,7 +257,7 @@ export default {
     {
       termino: 'Aplicación digital',
       significado:
-        'Software utilizado para ejecutar funciones específicas en entornos electrónicos.',
+        '<em>Software</em> utilizado para ejecutar funciones específicas en entornos electrónicos.',
     },
     {
       termino: 'Canal digital',
@@ -367,52 +367,47 @@ export default {
   ],
   referencias: [
     {
-      referencia: 'Banco de la República. (2021). <em>Pasarelas de pago</em>.',
+      referencia: 'Banco de la República. (2021). Pasarelas de pago.',
       link: 'https://www.banrep.gov.co/es/node/40991',
     },
     {
       referencia:
-        'Betancur, C. (2021). <em>Comparación de pasarelas de pago en Colombia</em>. BTODigital.',
+        'Betancur, C. (2021). Comparación de pasarelas de pago en Colombia. BTODigital.',
       link: 'https://btodigital.com/comparacion-de-pasarelas-de-pago-en-colombia/',
     },
     {
       referencia:
-        'Herradón, A. (2009). <em>Marketing electrónico para pymes</em>. Alfaomega.',
+        'Herradón, A. (2009). Marketing electrónico para pymes. Alfaomega.',
       link: '',
     },
     {
       referencia:
-        'Ministerio de Tecnologías de la Información y las Comunicaciones. (2020). <em>Resolución 202 de 2010</em>.',
+        'Ley 1480 de 2011. Estatuto del Consumidor. República de Colombia.',
+      link: '',
+    },
+    {
+      referencia:
+        'Ley 1581 de 2012. Por la cual se dictan disposiciones generales para la protección de datos personales. República de Colombia.',
+      link: '',
+    },
+    {
+      referencia:
+        'Ley 527 de 1999. Por medio de la cual se define y reglamenta el acceso y uso de los mensajes de datos, del comercio electrónico y de las firmas digitales. República de Colombia.',
+      link: '',
+    },
+    {
+      referencia:
+        'Ministerio de Tecnologías de la Información y las Comunicaciones. (2020). Resolución 202 de 2010.',
       link: 'https://normograma.mintic.gov.co/mintic/docs/resolucion_mintic_0202_2010.htm',
     },
     {
       referencia:
-        'Observatorio e-commerce. (2018). <em>Manual de buenas prácticas de las pasarelas de pago en Colombia</em>.',
+        'Observatorio e-commerce. (2018). Manual de buenas prácticas de las pasarelas de pago en Colombia.',
       link: '',
     },
     {
-      referencia: 'Ortega, L. (2015). <em>E-commerce y pago seguro</em>.',
+      referencia: 'Ortega, L. (2015). E-commerce y pago seguro.',
       link: 'https://docplayer.es/17430090-E-commerce-y-pago-seguro.html',
-    },
-    {
-      referencia:
-        'Meléndez, M. (2018). <em>El marketing digital transforma la gestión de pymes en Colombia</em>.',
-      link: 'https://www.redalyc.org/jatsRepo/4096/409658132001/html/index.html',
-    },
-    {
-      referencia:
-        'República de Colombia. (2012). <em>Ley 1581 de 2012</em>. Por la cual se dictan disposiciones generales para la protección de datos personales.',
-      link: '',
-    },
-    {
-      referencia:
-        'República de Colombia. (1999). <em>Ley 527 de 1999</em>. Por medio de la cual se define y reglamenta el acceso y uso de los mensajes de datos, del comercio electrónico y de las firmas digitales.',
-      link: '',
-    },
-    {
-      referencia:
-        'República de Colombia. (2011). <em>Ley 1480 de 2011</em>. Estatuto del Consumidor.',
-      link: '',
     },
   ],
   creditos: [

@@ -64,7 +64,7 @@
       Separador
 
       #t_1_2.titulo-segundo.color-acento-contenido
-        .h2(data-aos="fade-right") 1.2 Modelos y componentes logísticos
+        .h2(data-aos="fade-right") 1.2 Soporte tecnológico
 
       p.mb-4(data-aos="zoom-in-right") El soporte tecnológico integra los procesos, recursos y estrategias que permiten planificar, ejecutar y controlar el flujo de productos, información y servicios en el comercio electrónico. Su adecuada articulación favorece el abastecimiento, el almacenamiento, la preparación de pedidos, el transporte, la distribución y la atención al cliente, garantizando operaciones eficientes, entregas oportunas y una experiencia de compra alineada con las necesidades del mercado digital. Entre los procesos más comunes que se deben realizar para asegurar el funcionamiento eficiente y la continuidad de las operaciones, son:
 
@@ -85,7 +85,7 @@
               p.mb-3 Incorpora mejoras, nuevas funciones y correcciones en equipos o sistemas para optimizar el desempeño, fortalecer la seguridad y responder a las necesidades cambiantes de la operación logística.
               p.mb-0
                 strong Ejemplo en <em>e-commerce</em>:
-                |  actualización del software de gestión de transporte (TMS) para optimizar la planificación de rutas de entrega.
+                |  actualización del <em>software</em> de gestión de transporte (TMS) para optimizar la planificación de rutas de entrega.
             div(titulo="Monitoreo")
               p.mb-3 Supervisa permanentemente el estado y desempeño de los sistemas tecnológicos, permitiendo identificar desviaciones que puedan afectar la trazabilidad, la disponibilidad o la eficiencia logística.
               p.mb-0
@@ -142,7 +142,7 @@
                   img.img-fluid(src="@/assets/curso/tema1/img_8.png", alt="Un hombre sostiene un computador portátil mientras revisa los servidores de un centro de datos con racks de equipos.")
             .row.align-items-center
               .col-md-12.col-lg-6.mb-4.mb-md-3
-                strong.d-block.fst-italic.mb-3(style="font-size: 18px") Software
+                strong.d-block.fst-italic.mb-3(style="font-size: 18px") <em>Software</em>
                 p.mb-3 Comprende los programas y aplicaciones que administran las operaciones comerciales y logísticas, automatizando procesos y facilitando la gestión de pedidos, inventarios, pagos y despachos.
                 p.mb-0
                   strong Ejemplo:
@@ -176,7 +176,7 @@
                 p.mb-3 Implementa controles, políticas y herramientas para proteger los sistemas, la información y las transacciones frente a accesos no autorizados, ataques informáticos o pérdida de datos.
                 p.mb-0
                   strong Ejemplo:
-                  |  autenticación multifactorial, certificados SSL, firewall y copias de seguridad para proteger la plataforma de comercio electrónico.
+                  |  autenticación multifactorial, certificados SSL, <em>firewall</em> y copias de seguridad para proteger la plataforma de comercio electrónico.
               .col-md-12.col-lg-6
                 figure
                   img.img-fluid(src="@/assets/curso/tema1/img_12.png", alt="Unas manos escriben en un computador portátil mientras se proyecta un holograma de un escudo de seguridad con datos binarios y paneles de verificación de identidad.")
@@ -316,9 +316,9 @@
           .tarjeta.tarjeta--fondo-img-03.py-3.px-5(data-aos="zoom-in-right")
             .row.align-items-center
               .col-8.col-lg-4.d-none.d-lg-block.mb-0
-                img(src="@/assets/curso/tema1/img_19.png", class="img-fluid", alt="Un micrófono retro de color amarillo sobre una base, representando el podcast sugerido.")
+                img(src="@/assets/curso/tema1/img_19.png", class="img-fluid", alt="Un micrófono retro de color amarillo sobre una base, representando el pódcast sugerido.")
               .col-12.col-lg-8
-                h2.mb-5.text-white A continuación, se invita a ir al siguiente podcast:
+                h2.mb-5.text-white A continuación, se invita a ir al siguiente pódcast:
                 TarjetaAudio.color-acento-contenido.p-4.mb-0(
                   texto="Seguridad digital en el <em>e-commerce</em>: protección de datos y transacciones seguras."
                   :audio="require_src('@/assets/curso/podcast/podcast_1.mp3')"

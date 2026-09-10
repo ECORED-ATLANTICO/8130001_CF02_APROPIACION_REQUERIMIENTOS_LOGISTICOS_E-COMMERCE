@@ -48,7 +48,7 @@
             p.mb-0 Corresponde a programas maliciosos que buscan capturar información financiera, alterar el funcionamiento de los sistemas o facilitar accesos no autorizados.
             p.mb-0
               strong Ejemplo:
-              |  un software malicioso registra las credenciales bancarias ingresadas por el usuario durante una compra.
+              |  un <em>software</em> malicioso registra las credenciales bancarias ingresadas por el usuario durante una compra.
       .col-8.col-lg-5(data-aos="fade-up")
         figure
           img.img-fluid(src="@/assets/curso/tema6/img_2.png", alt="Una persona con capucha, guantes negros y una máscara blanca sostiene el cierre de su chaqueta, con ilustraciones de un globo terráqueo con paquetes y un carrito de compras alrededor.")
@@ -74,7 +74,7 @@
                   |  un atacante accede al panel administrativo de la tienda virtual mediante credenciales comprometidas.
               .py-3.px-4.p-md-4.p-lg-5.p-xl-5
                 h3.h5 Vulnerabilidades del sistema
-                p.mb-0 Corresponden a fallas de configuración, software desactualizado o errores técnicos que pueden ser aprovechados para comprometer la seguridad de las transacciones.
+                p.mb-0 Corresponden a fallas de configuración, <em>software</em> desactualizado o errores técnicos que pueden ser aprovechados para comprometer la seguridad de las transacciones.
                 p.mb-0
                   strong Ejemplo:
                   |  una plataforma sin actualizaciones de seguridad permite la explotación de una vulnerabilidad conocida.
@@ -132,9 +132,9 @@
             td Garantizan la autenticidad del sitio web y establecen conexiones seguras para proteger la información intercambiada entre el usuario y la plataforma.
             td El navegador muestra el candado de seguridad y la dirección https:// al ingresar a una tienda virtual.
           tr
-            td Firewalls
+            td <em>Firewalls</em>
             td Controlan el tráfico de información que entra y sale de la red, bloqueando conexiones o actividades que representen un riesgo para los sistemas.
-            td El firewall impide intentos de acceso no autorizados al servidor donde funciona la tienda virtual.
+            td El <em>firewall</em> impide intentos de acceso no autorizados al servidor donde funciona la tienda virtual.
           tr
             td Sistemas de detección de intrusiones
             td Identifican comportamientos sospechosos o intentos de ataque contra la infraestructura tecnológica, generando alertas para facilitar una respuesta oportuna.
@@ -208,7 +208,7 @@
         tbody
           tr
             td Constitución Política de Colombia (1991)
-            td Reconoce derechos fundamentales como la intimidad, el hábeas data y la protección de la información personal en medios físicos y digitales.
+            td Reconoce derechos fundamentales como la intimidad, el <em>hábeas data</em> y la protección de la información personal en medios físicos y digitales.
             td Un cliente puede solicitar la actualización o eliminación de sus datos personales registrados en una tienda virtual.
           tr
             td Ley 527 de 1999
@@ -267,7 +267,7 @@
             .col-12.col-md-10.col-lg-10
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  p.mb-0 Se invita al aprendiz a profundizar en protección de transacciones financieras y cumplimiento normativo, a través del siguiente libro (página 207-211):
+                  p.mb-0 Se invita al aprendiz a profundizar en protección de transacciones financieras y cumplimiento normativo, a través del siguiente libro (páginas 207 - 211):
                 .col-sm-auto.text-center
                   a.boton.color-acento-botones(href="https://colombiatic.mintic.gov.co/679/articles-197363_recurso_1.pdf" target="_blank")
                     span Ir al recurso

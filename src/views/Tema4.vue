@@ -173,8 +173,8 @@
           h5 Figura 2.
           |    Operación de una pasarela de pagos
         figure(data-aos="flip-left")
-          img(src='@/assets/curso/tema4/img_10.svg', class="img-fluid d-none d-lg-block", alt="Diagrama con seis pasos de la operación de una pasarela de pagos. 1. Selección del producto o servicio: el cliente elige el producto o servicio en la tienda virtual. 2. Selección del medio de pago: el cliente selecciona el medio de pago disponible, como tarjeta, PSE o billetera digital. 3. Envío seguro de la información: la pasarela recibe y transmite la información de forma segura. 4. Validación por la entidad financiera: la entidad financiera verifica la información y valida la operación. 5. Respuesta de la transacción: la entidad financiera autoriza o rechaza la transacción. 6. Comunicación del resultado: el resultado se comunica al comercio y al cliente en segundos, siendo el resultado de la transacción aprobada o rechazada. Un recuadro adicional indica que la seguridad se mantiene en todo el proceso: la información viaja cifrada y protegida para garantizar la confidencialidad y la integridad de los datos financieros.").mb-5
-          img(src='@/assets/curso/tema4/img_11.svg', class="img-fluid d-block d-lg-none", alt="Diagrama con seis pasos de la operación de una pasarela de pagos. 1. Selección del producto o servicio: el cliente elige el producto o servicio en la tienda virtual. 2. Selección del medio de pago: el cliente selecciona el medio de pago disponible, como tarjeta, PSE o billetera digital. 3. Envío seguro de la información: la pasarela recibe y transmite la información de forma segura. 4. Validación por la entidad financiera: la entidad financiera verifica la información y valida la operación. 5. Respuesta de la transacción: la entidad financiera autoriza o rechaza la transacción. 6. Comunicación del resultado: el resultado se comunica al comercio y al cliente en segundos, siendo el resultado de la transacción aprobada o rechazada. Un recuadro adicional indica que la seguridad se mantiene en todo el proceso: la información viaja cifrada y protegida para garantizar la confidencialidad y la integridad de los datos financieros.").mb-5
+          img(src='@/assets/curso/tema4/img_10.svg', class="img-fluid d-none d-lg-block", alt="La figura describe el funcionamiento de una pasarela de pagos en el comercio electrónico. Presenta seis etapas secuenciales: selección del producto o servicio, elección del medio de pago, envío seguro de la información, validación por la entidad financiera, autorización o rechazo de la transacción y comunicación del resultado al comercio y al cliente. Además, destaca que todo el proceso se realiza en pocos segundos mediante mecanismos de seguridad que protegen la información financiera y garantizan la confiabilidad de la transacción.").mb-5
+          img(src='@/assets/curso/tema4/img_11.svg', class="img-fluid d-block d-lg-none", alt="La figura describe el funcionamiento de una pasarela de pagos en el comercio electrónico. Presenta seis etapas secuenciales: selección del producto o servicio, elección del medio de pago, envío seguro de la información, validación por la entidad financiera, autorización o rechazo de la transacción y comunicación del resultado al comercio y al cliente. Además, destaca que todo el proceso se realiza en pocos segundos mediante mecanismos de seguridad que protegen la información financiera y garantizan la confiabilidad de la transacción.").mb-5
           figcaption Nota. SENA, (2026).
 
     p.mb-4(data-aos="zoom-in-right") La eficiencia en la operación de las pasarelas de pago contribuye a mejorar la experiencia del usuario y a incrementar la confianza en las compras realizadas por medios electrónicos.
@@ -209,7 +209,7 @@
             SlyderA.py-4.px-3(tipo="a")
               .py-3.px-4.p-md-4.p-lg-5.p-xl-5
                 h3.h5 Actualización de sistemas
-                p.mb-0 Incorpora nuevas versiones de software, parches de seguridad y mejoras funcionales para optimizar el rendimiento, corregir vulnerabilidades y mantener la compatibilidad de la plataforma con otros servicios tecnológicos.
+                p.mb-0 Incorpora nuevas versiones de <em>software</em>, parches de seguridad y mejoras funcionales para optimizar el rendimiento, corregir vulnerabilidades y mantener la compatibilidad de la plataforma con otros servicios tecnológicos.
               .py-3.px-4.p-md-4.p-lg-5.p-xl-5
                 h3.h5 Monitoreo de operaciones
                 p.mb-0 Supervisa continuamente el funcionamiento de la plataforma, las transacciones y los recursos tecnológicos para detectar anomalías, prevenir fallas y garantizar la continuidad de las operaciones.
@@ -302,9 +302,9 @@
         .tarjeta.tarjeta--fondo-img-03.py-3.px-5(data-aos="zoom-in-right")
           .row.align-items-center
             .col-8.col-lg-4.d-none.d-lg-block.mb-0
-              img(src="@/assets/curso/tema1/img_19.png", class="img-fluid", alt="Un micrófono retro de color amarillo sobre una base, representando el podcast sugerido.")
+              img(src="@/assets/curso/tema1/img_19.png", class="img-fluid", alt="Un micrófono retro de color amarillo sobre una base, representando el pódcast sugerido.")
             .col-12.col-lg-8
-              h2.mb-5.text-white A continuación, se invita a ir al siguiente podcast:
+              h2.mb-5.text-white A continuación, se invita a ir al siguiente pódcast:
               TarjetaAudio.color-acento-contenido.p-4.mb-0(
                 texto="Pasarelas de pago y experiencia del usuario en el comercio electrónico."
                 :audio="require_src('@/assets/curso/podcast/podcast_2.mp3')"

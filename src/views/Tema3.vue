@@ -121,13 +121,13 @@
                   strong Ejemplo:
                   |  un atacante utiliza los datos personales de un cliente para realizar compras en línea.
               .py-3.px-4.p-md-4.p-lg-3.p-xl-4
-                h3.h5 Phishing
+                h3.h5 <em>Phishing</em>
                 p.mb-0 Técnica de engaño que busca obtener información confidencial mediante correos electrónicos, mensajes o sitios web que simulan ser legítimos.
                 p.mb-0
                   strong Ejemplo:
                   |  un cliente recibe un correo falso que imita a la tienda virtual y solicita actualizar sus datos bancarios.
               .py-3.px-4.p-md-4.p-lg-3.p-xl-4
-                h3.h5 Malware
+                h3.h5 <em>Malware</em>
                 p.mb-0 Son programas maliciosos diseñados para dañar equipos, robar información o alterar el funcionamiento de sistemas informáticos.
                 p.mb-0
                   strong Ejemplo:
@@ -151,7 +151,7 @@
                   strong Ejemplo:
                   |  un atacante elimina el registro de pedidos almacenados en la base de datos de una tienda virtual.
               .py-3.px-4.p-md-4.p-lg-3.p-xl-4
-                h3.h5 Ataques de denegación de servicio (DoS/DDoS)
+                h3.h5 Ataques de denegación de servicio (DoS / DDoS)
                 p.mb-0 Buscan saturar un sistema o servidor para impedir el acceso de los usuarios y afectar la disponibilidad del servicio.
                 p.mb-0
                   strong Ejemplo:
@@ -172,7 +172,7 @@
             .col-12.col-lg-10.mb-0
               p.mb-0
                 strong Ejemplo:
-                |  los ataques de phishing buscan engañar a los usuarios para obtener información confidencial como contraseñas, datos bancarios o información personal mediante mensajes o sitios web fraudulentos.
+                |  los ataques de <em>phishing</em> buscan engañar a los usuarios para obtener información confidencial como contraseñas, datos bancarios o información personal mediante mensajes o sitios web fraudulentos.
             .col-12.col-lg-2.d-none.d-lg-block.mb-0
               figure
                 img(src="@/assets/curso/tema1/img_4.png", class="img-fluid", alt="Una mano sostiene un paquete que emerge de la pantalla de un teléfono móvil, representando la entrega de pedidos en el comercio electrónico.")
@@ -195,7 +195,7 @@
         AcordionA.mb-0(tipo="a" clase-tarjeta="tarjeta color-acento-contenido-10")
           div(titulo="Gestión de usuarios y permisos")
             p.mb-0 Administra las cuentas de usuario y asigna niveles de acceso según las funciones desempeñadas, garantizando el uso adecuado de la plataforma y la protección de la información.
-          div(titulo="Actualización de software")
+          div(titulo="Actualización de <em>software</em>")
             p.mb-0 Incorpora nuevas versiones, mejoras de seguridad y correcciones que optimizan el funcionamiento de la plataforma, reducen vulnerabilidades y mantienen la compatibilidad de los servicios.
           div(titulo="Monitoreo de actividades")
             p.mb-0 Supervisa las operaciones realizadas en la plataforma para identificar comportamientos inusuales, detectar incidentes y verificar el correcto funcionamiento de los servicios tecnológicos.
@@ -252,7 +252,7 @@
                 .col.mb-3.mb-sm-0
                   p.mb-0 A continuación, se invita a ir al siguiente video para fortalecer los conocimientos relacionados con protección de datos y seguridad digital:
                 .col-sm-auto.text-center
-                  a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=_sjIHKMeeeg&t=1752s" target="_blank")
+                  a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=_sjIHKMeeeg" target="_blank")
                     span Ir al recurso
                     i.fas.fa-file-video
 

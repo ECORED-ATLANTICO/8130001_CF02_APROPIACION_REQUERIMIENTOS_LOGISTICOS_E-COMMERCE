@@ -64,7 +64,7 @@ export default {
         {
           id: 2,
           texto:
-            '¿Qué función cumple el soporte tecnológico en una operación de <em>ecommerce</em>?',
+            '¿Qué función cumple el soporte tecnológico en una operación de <em>e-commerce</em>?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [

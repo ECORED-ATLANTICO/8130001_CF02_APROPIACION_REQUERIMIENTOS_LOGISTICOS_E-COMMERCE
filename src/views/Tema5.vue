@@ -128,7 +128,7 @@
                   |  se verifica que el enlace "Ver detalles del producto" abra correctamente la página con la información completa del artículo.
               .py-3.px-4.p-md-4.p-lg-5.p-xl-5
                 h3.h5 Elementos gráficos
-                p.mb-0 Revisa que imágenes, iconos, banners y demás recursos visuales se visualicen correctamente y contribuyan a la comprensión y usabilidad de la plataforma.
+                p.mb-0 Revisa que imágenes, iconos, <em>banners</em> y demás recursos visuales se visualicen correctamente y contribuyan a la comprensión y usabilidad de la plataforma.
                 p.mb-0
                   strong Ejemplo:
                   |  se comprueba que las fotografías de los productos carguen correctamente y mantengan una buena calidad en computadores y dispositivos móviles.
@@ -260,22 +260,6 @@
       .col-12.col-lg-8
         .tarjeta.tarjeta--primario-10.p-4.text-center(data-aos="zoom-in-right")
           p.mb-0 Por ejemplo, antes de poner en funcionamiento una tienda virtual, la empresa puede ejecutar pruebas del sistema para verificar que todas las funcionalidades trabajen correctamente de manera integrada.
-
-    .row.justify-content-center.mb-5
-      .col-12.col-lg-8
-        .tarjeta.color-terciario-70.p-4(data-aos="zoom-in-right")
-          .row.justify-content-around.align-items-center
-            .col-6.col-md-2.col-lg-2.mb-3.mb-sm-0
-              figure
-                img(src="@/assets/curso/tema1/img_17.svg")
-            .col-12.col-md-10.col-lg-10
-              .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0
-                  p.mb-0 A continuación, se invita a ir al siguiente video para fortalecer los conocimientos relacionados con pruebas y control de calidad del servicio:
-                .col-sm-auto.text-center
-                  a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=m7Uz3SsIv1g" target="_blank")
-                    span Ir al recurso
-                    i.fas.fa-file-video
 
     .row.justify-content-center.mb-5
       .col-12.col-lg-8

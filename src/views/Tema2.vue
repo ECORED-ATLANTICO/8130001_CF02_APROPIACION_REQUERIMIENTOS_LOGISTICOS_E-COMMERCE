@@ -209,7 +209,7 @@
       .bloque-texto-t__img.mb-0
         img(src="@/assets/curso/tema2/img_15.png", alt="Una persona escribe en un computador portátil que muestra un explorador de archivos, mientras en el escritorio hay una taza de café, galletas y un jarrón con flores.")
       .bloque-texto-t__texto.color-primario-10.col-12.col-lg-10.mb-0
-        p.mb-0 Los costos en las estrategias de medios y comunicación digital corresponden a la inversión necesaria para implementar, administrar y optimizar los canales, herramientas y plataformas utilizados para promocionar productos, fortalecer la comunicación con los clientes y alcanzar los objetivos comerciales. Su adecuada planificación permite seleccionar soluciones acordes con el presupuesto disponible, evaluar la relación entre costo y beneficio, y garantizar el uso eficiente de los recursos destinados a las acciones de marketing y comunicación digital.
+        p.mb-0 Los costos en las estrategias de medios y comunicación digital corresponden a la inversión necesaria para implementar, administrar y optimizar los canales, herramientas y plataformas utilizados para promocionar productos, fortalecer la comunicación con los clientes y alcanzar los objetivos comerciales. Su adecuada planificación permite seleccionar soluciones acordes con el presupuesto disponible, evaluar la relación entre costo y beneficio, y garantizar el uso eficiente de los recursos destinados a las acciones de <em>marketing</em> y comunicación digital.
 
     p.mt-4(data-aos="zoom-in-right") A continuación, se presentan las variables asociadas al costo dentro de las estrategias de medios y comunicación digital:
 
@@ -280,8 +280,8 @@
       h5 Figura 1.
       |    Indicadores de desempeño más comunes
     figure.mb-5(data-aos="flip-left")
-      img(src='@/assets/curso/tema2/img_21.svg', class="img-fluid d-none d-lg-block", alt="Diagrama circular con seis indicadores clave de desempeño (KPI) alrededor de un círculo central que dice 'Key Performance Indicators (KPI)'. 1. Número de visitas al sitio web: cantidad de usuarios que ingresan al sitio web durante un periodo determinado; ejemplo, la tienda online recibió 5.200 visitas en una semana. 2. Tasa de conversión: porcentaje de visitantes que realizan una acción esperada, como una compra o registro, respecto al total de visitas; ejemplo, de 2.000 visitantes, 80 realizaron una compra (4 %). 3. Alcance de publicaciones: cantidad de personas que visualizan una publicación en un medio digital; ejemplo, una publicación en Facebook alcanzó a 18.000 personas. 4. Nivel de interacción: grado de participación de los usuarios mediante reacciones, comentarios, compartidos, clics o respuestas; ejemplo, una publicación obtuvo 1.200 “me gusta”, 150 comentarios y 300 veces compartida. 5. Costo por adquisición de clientes (CPA): valor promedio invertido para captar un nuevo cliente mediante campañas en medios digitales; ejemplo, la empresa invirtió $60.000 en publicidad para adquirir cada nuevo cliente. 6. Porcentaje de apertura de correos electrónicos: proporción de correos abiertos por los destinatarios respecto al total de mensajes enviados; ejemplo, el 28 % de los correos enviados fueron abiertos.").mb-5
-      img(src='@/assets/curso/tema2/img_22.svg', class="img-fluid d-block d-lg-none", alt="Diagrama circular con seis indicadores clave de desempeño (KPI) alrededor de un círculo central que dice 'Key Performance Indicators (KPI)'. 1. Número de visitas al sitio web: cantidad de usuarios que ingresan al sitio web durante un periodo determinado; ejemplo, la tienda online recibió 5.200 visitas en una semana. 2. Tasa de conversión: porcentaje de visitantes que realizan una acción esperada, como una compra o registro, respecto al total de visitas; ejemplo, de 2.000 visitantes, 80 realizaron una compra (4 %). 3. Alcance de publicaciones: cantidad de personas que visualizan una publicación en un medio digital; ejemplo, una publicación en Facebook alcanzó a 18.000 personas. 4. Nivel de interacción: grado de participación de los usuarios mediante reacciones, comentarios, compartidos, clics o respuestas; ejemplo, una publicación obtuvo 1.200 “me gusta”, 150 comentarios y 300 veces compartida. 5. Costo por adquisición de clientes (CPA): valor promedio invertido para captar un nuevo cliente mediante campañas en medios digitales; ejemplo, la empresa invirtió $60.000 en publicidad para adquirir cada nuevo cliente. 6. Porcentaje de apertura de correos electrónicos: proporción de correos abiertos por los destinatarios respecto al total de mensajes enviados; ejemplo, el 28 % de los correos enviados fueron abiertos.").mb-5
+      img(src='@/assets/curso/tema2/img_21.svg', class="img-fluid d-none d-lg-block", alt="La figura muestra de manera circular los indicadores clave de desempeño (KPI) aplicados a las estrategias de medios y comunicación digital en el e-commerce. Está organizada de acuerdo a seis indicadores: número de visitas al sitio web, tasa de conversión, alcance de publicaciones, nivel de interacción, costo por adquisición de clientes y porcentaje de apertura de correos electrónicos. Cada uno presenta una breve explicación y un ejemplo práctico, mostrando cómo evaluar el rendimiento de las acciones de comunicación digital para apoyar la toma de decisiones y el cumplimiento de los objetivos comerciales.").mb-5
+      img(src='@/assets/curso/tema2/img_22.svg', class="img-fluid d-block d-lg-none", alt="La figura muestra de manera circular los indicadores clave de desempeño (KPI) aplicados a las estrategias de medios y comunicación digital en el e-commerce. Está organizada de acuerdo a seis indicadores: número de visitas al sitio web, tasa de conversión, alcance de publicaciones, nivel de interacción, costo por adquisición de clientes y porcentaje de apertura de correos electrónicos. Cada uno presenta una breve explicación y un ejemplo práctico, mostrando cómo evaluar el rendimiento de las acciones de comunicación digital para apoyar la toma de decisiones y el cumplimiento de los objetivos comerciales.").mb-5
       figcaption Nota. SENA, (2026).
 
     .row.justify-content-center.align-items-center.mb-4
@@ -296,22 +296,6 @@
               figure
                 img(src="@/assets/curso/tema1/img_4.png", class="img-fluid", alt="Una mano sostiene un paquete que emerge de la pantalla de un teléfono móvil, representando la entrega de pedidos en el comercio electrónico.")
 
-    .row.justify-content-center.mb-5
-      .col-12.col-lg-8
-        .tarjeta.color-terciario-70.p-4(data-aos="zoom-in-right")
-          .row.justify-content-around.align-items-center
-            .col-6.col-md-2.col-lg-2.mb-3.mb-sm-0
-              figure
-                img(src="@/assets/curso/tema1/img_17.svg")
-            .col-12.col-md-10.col-lg-10
-              .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0
-                  p.mb-0 A continuación, se invita a ir al siguiente video para fortalecer los conocimientos relacionados con logística de distribución y almacenamiento:
-                .col-sm-auto.text-center
-                  a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=uHvHpgN70yU" target="_blank")
-                    span Ir al recurso
-                    i.fas.fa-file-video
-
     .row.justify-content-center.mb-0
       .col-12.col-lg-8
         .tarjeta.color-primario.p-4(data-aos="zoom-in-right")
@@ -322,7 +306,7 @@
             .col-12.col-md-10.col-lg-10
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  p.mb-0 Se invita al aprendiz a profundizar en lo relacionado a estrategias de medios y comunicación digital, a través del siguiente libro (página 11-24):
+                  p.mb-0 Se invita al aprendiz a profundizar en lo relacionado a estrategias de medios y comunicación digital, a través del siguiente libro (páginas 11 - 24):
                 .col-sm-auto.text-center
                   a.boton.color-acento-botones(href="https://8982035.fs1.hubspotusercontent-na1.net/hubfs/8982035/Publicaciones/documentos/publico/Libro-Blanco-de-Marketing-para-eCommerce.pdf" target="_blank")
                     span Ir al recurso
