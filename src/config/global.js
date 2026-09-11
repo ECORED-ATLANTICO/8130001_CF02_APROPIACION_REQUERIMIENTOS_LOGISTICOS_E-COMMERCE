@@ -257,7 +257,7 @@ export default {
     {
       termino: 'Aplicación digital',
       significado:
-        '<em>Software</em> utilizado para ejecutar funciones específicas en entornos electrónicos.',
+        '<em>software</em> utilizado para ejecutar funciones específicas en entornos electrónicos.',
     },
     {
       termino: 'Canal digital',
