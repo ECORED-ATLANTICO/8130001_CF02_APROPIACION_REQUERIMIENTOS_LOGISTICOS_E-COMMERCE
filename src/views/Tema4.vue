@@ -279,7 +279,6 @@
                 .col-sm-auto.text-center
                   a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=XfAEtsoDCdI" target="_blank")
                     span Ir al recurso
-                    i.fas.fa-file-video
 
     .row.justify-content-center.mb-5
       .col-12.col-lg-8
@@ -295,7 +294,6 @@
                 .col-sm-auto.text-center
                   a.boton.color-acento-botones(href="https://bibliotecadigital.iue.edu.co/server/api/core/bitstreams/ef97a47b-0fc9-4c2d-b21d-747de1849a21/content" target="_blank")
                     span Ir al recurso
-                    i.fas.fa-file-pdf
 
     .row.justify-content-center.mb-0
       .col-12.col-lg-8
@@ -306,7 +304,7 @@
             .col-12.col-lg-8
               h2.mb-5.text-white A continuación, se invita a ir al siguiente pódcast:
               TarjetaAudio.color-acento-contenido.p-4.mb-0(
-                texto="Pasarelas de pago y experiencia del usuario en el comercio electrónico."
+                texto="<span style='font-style: normal !important;'>Pasarelas de pago y experiencia del usuario en el comercio electrónico."
                 :audio="require_src('@/assets/curso/podcast/podcast_2.mp3')"
                 tiempo
               )

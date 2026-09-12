@@ -293,7 +293,7 @@
                   .col-sm-auto.text-center
                     a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=M-l7gVm69KI" target="_blank")
                       span Ir al recurso
-                      i.fas.fa-file-video
+                      
 
       .row.justify-content-center.mb-5
         .col-12.col-lg-8
@@ -309,7 +309,7 @@
                   .col-sm-auto.text-center
                     a.boton.color-acento-botones(href="https://www.centro-virtual.com/recursos/biblioteca/pdf/e-commerce/unidad2_pdf1.pdf" target="_blank")
                       span Ir al recurso
-                      i.fas.fa-file-pdf
+                      
 
       .row.justify-content-center.mb-5
         .col-12.col-lg-8
@@ -320,7 +320,7 @@
               .col-12.col-lg-8
                 h2.mb-5.text-white A continuación, se invita a ir al siguiente pódcast:
                 TarjetaAudio.color-acento-contenido.p-4.mb-0(
-                  texto="Seguridad digital en el <em>e-commerce</em>: protección de datos y transacciones seguras."
+                  texto="<span style='font-style: normal !important;'>Seguridad digital en el <em>e-commerce</em>: protección de datos y transacciones seguras."
                   :audio="require_src('@/assets/curso/podcast/podcast_1.mp3')"
                   tiempo
                 )

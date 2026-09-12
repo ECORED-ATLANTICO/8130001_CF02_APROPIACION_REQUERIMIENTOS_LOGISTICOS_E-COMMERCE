@@ -275,7 +275,6 @@
                 .col-sm-auto.text-center
                   a.boton.color-acento-botones(href="https://revistap.ejeutap.edu.co/index.php/Gestion/article/download/148/125/258" target="_blank")
                     span Ir al recurso
-                    i.fas.fa-file-pdf
 </template>
 
 <script>

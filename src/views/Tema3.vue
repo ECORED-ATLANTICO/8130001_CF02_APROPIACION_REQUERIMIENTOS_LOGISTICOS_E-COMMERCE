@@ -254,7 +254,6 @@
                 .col-sm-auto.text-center
                   a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=_sjIHKMeeeg" target="_blank")
                     span Ir al recurso
-                    i.fas.fa-file-video
 
     .row.justify-content-center.mb-5
       .col-12.col-lg-8
@@ -270,7 +269,6 @@
                 .col-sm-auto.text-center
                   a.boton.color-acento-botones(href="https://www.mintic.gov.co/portal/715/articles-403023_recurso_2.pdf" target="_blank")
                     span Ir al recurso
-                    i.fas.fa-file-pdf
 </template>
 
 <script>

@@ -310,7 +310,6 @@
                 .col-sm-auto.text-center
                   a.boton.color-acento-botones(href="https://8982035.fs1.hubspotusercontent-na1.net/hubfs/8982035/Publicaciones/documentos/publico/Libro-Blanco-de-Marketing-para-eCommerce.pdf" target="_blank")
                     span Ir al recurso
-                    i.fas.fa-file-pdf
                     
 </template>
 
